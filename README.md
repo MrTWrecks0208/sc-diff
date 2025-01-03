@@ -1,4 +1,4 @@
-<img src="https://i.ibb.co/jgw1nNX/scDiff.png" width: auto; height: 360px;text-align: center;">
+<img src="https://i.ibb.co/jgw1nNX/scDiff.png" style="width: auto; height: 360px;text-align: center;">
 
 sc diff is the <strong>FIRST</strong> shortcut to replicate the <code>diff</code> command and display changes between two versions of a shortcut.
 
