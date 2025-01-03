@@ -2,6 +2,9 @@
 
 sc diff is the <strong>FIRST</strong> shortcut to replicate the <code>diff</code> command and display changes between two versions of a shortcut.
 
+
+
+
 This repo contains a list of action identifiers (from plist files) and their respective actions in Apple Shortcuts (formerly Workflow).
 
 {
