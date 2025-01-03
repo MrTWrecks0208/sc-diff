@@ -1,3 +1,5 @@
+<img src="https://i.ibb.co/jgw1nNX/scDiff.png" style="width: 100%;height: 90px;text-align: center">
+
 This repo contains a list of action identifiers (from plist files) and their respective actions in Apple Shortcuts (formerly Workflow).
 
 {
