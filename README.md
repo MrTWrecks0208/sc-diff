@@ -76,8 +76,6 @@ This repo contains a list of action identifiers (from plist files) and their res
 
     "number": "Number",
 
-    "detect.numbers": "Get Numbers from Input",
-
     "number.random": "Random Number",
 
     "runsshscript": "Run Script Over SSH",
