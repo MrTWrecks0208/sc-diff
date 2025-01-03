@@ -1,4 +1,4 @@
-This repo contains a list of action identifiers (found in plist files) and their respective actions in the Apple Shortcuts app (formerly Workflow).
+This repo contains a list of action identifiers (from plist files) and their respective actions in Apple Shortcuts (formerly Workflow).
 
 {
   
