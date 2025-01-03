@@ -728,7 +728,7 @@ This repo contains a list of action identifiers (from plist files) and their res
       "pocket.get": "Get Items from Pocket"
     },
 
-    "ProtonMail": {
+    "Proton Mail": {
       "ch.protonmail.WipeMainKeyIntent": "Wipe Local Data"
     },
 
@@ -1054,78 +1054,6 @@ This repo contains a list of action identifiers (from plist files) and their res
   },
 
   "Apple Apps": {
-  
-    "Clock": {
-      "apple.mobiletimer-framework.MobileTimerIntents.MTCreateAlarmIntent": "Create Alarm",
-
-      "apple.mobiletimer-framework.MobileTimerIntents.MTGetAlarmsIntent": "Get All Alarms",
-
-      "apple.mobiletimer-framework.MobileTimerIntents.MTToggleAlarmIntent": "Start Timer",
-
-      "timer.start": "Start Timer"
-    },
-
-    "Pages": {
-      "apple.Pages.TSADocumentCreateIntent": "Create Document",
-
-      "apple.Pages.TSADocumentOpenIntent": "Open Document",
-
-      "apple.Pages.TPDocumentBeginPresenterModeIntent": "Open Document in Presenter Mode"
-    },
-
-    "Notes": {
-      "apple.mobilenotes.SharingExtension": "Create Note",
-
-      "apple.mobilenotes.ICNotesFolderIntent": "Show Folder",
-
-      "appendnote": "Append to Note",
-
-      "mobilenotes.SharingExtension": "Create Note",
-
-      "filter.notes": "Find Notes",
-
-      "shownote": "Show Note",
-
-      "mobilenotes.ICNotesFolderIntent": "Show Notes Folder"
-    },
-
-    "Mail": {
-      "selectemail": "Select Email Address",
-
-      "email": "Email Addresses",
-
-      "detect.emailaddress": "Get Email Address from Input",
-
-      "sendemail": "Send Email"
-    },
-
-    "Numbers": {
-      "apple.Numbers.TNiOSAddValuesToFormIntent": "Add Records to Form",
-
-      "apple.Numbers.TNiOSAddValuesToSpreadsheetIntent": "Add Row to Top or Bottom of Table",
-
-      "apple.Numbers.TSADocumentCreateIntent": "Create Spreadsheet",
-
-      "apple.Numbers.TSADocumentOpenIntent": "Open Spreadsheet"
-    },
-
-    "Keynote": {
-      "apple.Keynote.TSADocumentCreateIntent": "Create Presentation",
-
-      "apple.Keynote.KNiOSCreateNewOutlineIntent": "Create Presentation in Outline View",
-
-      "apple.Keynote.TSADocumentOpenIntent": "Open Presentation",
-
-      "apple.Keynote.KNDocumentRehearseIntent": "Open Presentation in Rehearsal Mode",
-
-      "apple.Keynote.KNDocumentPlayIntent": "Play Presentation in Show Mode"
-    },
-
-    "FaceTime": {
-      "TelephonyUtilities.PhoneIntentHandler": "FaceTime",
-
-      "apple.facetime.facetime": "Facetime"
-    },
 
     "Apple TV": {
       "TVRemoteUIService.LaunchScreenSaverIntent": "Launch Screensaver on Apple TV",
@@ -1152,8 +1080,13 @@ This repo contains a list of action identifiers (from plist files) and their res
 
       "TVRemoteUIService.WakeAppleTVIntent": "Wake Apple TV"
     },
-
+       
+    "Books": {
+      "apple.iBooks.openin": "Add PDF in Books"
+    },
+    
     "Calendar": {
+  
       "addnewevent": "Add New Event",
 
       "setters.calendarevents": "Edit Calendar Event",
@@ -1186,69 +1119,21 @@ This repo contains a list of action identifiers (from plist files) and their res
 
       "properties.contacts": "Get Details of Contacts"
     },
+    
+    "Clock": {
+      "apple.mobiletimer-framework.MobileTimerIntents.MTCreateAlarmIntent": "Create Alarm",
 
-    "Phone": {
-      "detect.phonenumber": "Get Phone Numbers from Input",
+      "apple.mobiletimer-framework.MobileTimerIntents.MTGetAlarmsIntent": "Get All Alarms",
 
-      "phonenumber": "Phone Number",
+      "apple.mobiletimer-framework.MobileTimerIntents.MTToggleAlarmIntent": "Start Timer",
 
-      "selectcontacts": "Select Contact",
-
-      "selectphone": "Select Phone Number"
+      "timer.start": "Start Timer"
     },
 
-    "Health": {
-      "filter.health.quantity": "Filter Health Samples",
+    "FaceTime": {
+      "TelephonyUtilities.PhoneIntentHandler": "FaceTime",
 
-      "properties.health.quantity": "Get Details of Health Samples",
-
-      "health.quantity.log": "Log Health Sample",
-
-      "health.workout.log": "Log Workout"
-    },
-
-    "Reminders": {
-      "addnewreminder": "Add New Reminder",
-
-      "setters.reminders": "Edit Reminder",
-
-      "filter.reminders": "Find Reminders",
-
-      "properties.reminders": "Get Details of Reminders",
-
-      "getupcomingreminders": "Get Upcoming Reminders",
-
-      "removereminders": "Remove Reminders",
-
-      "reminders.showlist": "Show Reminders List"
-    },
-
-    "Safari": {
-      "readinglist": "Add to Reading List",
-
-      "properties.safariwebpage": "Get Details of Safari Web Page",
-
-      "openurl": "Open URL",
-
-      "runjavascriptonwebpage": "Run JavaScript on Web Page",
-
-      "searchweb": "Search Web",
-
-      "showwebpage": "Show Web Page",
-
-      "filter.articles": "Filter Articles",
-
-      "getarticle": "Get Article Using Safari Reader",
-
-      "properties.article": "Get Details of Article"
-    },
-
-    "Messages": {
-      "sendmessage": "Send Message"
-    },
-
-    "Books": {
-      "apple.iBooks.openin": "Add PDF in Books"
+      "apple.facetime.facetime": "Facetime"
     },
 
     "Files": {
@@ -1271,6 +1156,68 @@ This repo contains a list of action identifiers (from plist files) and their res
       "filter.files": "Filter Files",
 
       "properties.files": "Get Details of Files"
+    },
+    
+    "Health": {
+      "filter.health.quantity": "Filter Health Samples",
+
+      "properties.health.quantity": "Get Details of Health Samples",
+
+      "health.quantity.log": "Log Health Sample",
+
+      "health.workout.log": "Log Workout"
+    },
+
+    "iTunes Store/Apple Music": {
+      "properties.itunesartist": "Get Details of iTunes Artist",
+
+      "properties.itunesstore": "Get Details of iTunes Product",
+
+      "searchitunes": "Search iTunes Store",
+
+      "showinstore": "Show in iTunes Store",
+
+      "filter.music": "Find Music",
+
+      "getcurrentsong": "Get Current Song",
+
+      "properties.music": "Get Details of Music",
+
+      "playmusic": "Play Music",
+
+      "exportsong": "Select Music",
+
+      "addtoplaylist": "Add to Playlist",
+
+      "createplaylist": "Create Playlist",
+
+      "get.playlist": "Get Playlist",
+
+      "addmusictoupnext": "Add to Up Next",
+
+      "clearupnext": "Clear Up Next"
+    },
+    
+    "Keynote": {
+      "apple.Keynote.TSADocumentCreateIntent": "Create Presentation",
+
+      "apple.Keynote.KNiOSCreateNewOutlineIntent": "Create Presentation in Outline View",
+
+      "apple.Keynote.TSADocumentOpenIntent": "Open Presentation",
+
+      "apple.Keynote.KNDocumentRehearseIntent": "Open Presentation in Rehearsal Mode",
+
+      "apple.Keynote.KNDocumentPlayIntent": "Play Presentation in Show Mode"
+    },
+
+    "Mail": {
+      "selectemail": "Select Email Address",
+
+      "email": "Email Addresses",
+
+      "detect.emailaddress": "Get Email Address from Input",
+
+      "sendemail": "Send Email"
     },
 
     "Maps, Location, and Weather": {
@@ -1308,35 +1255,53 @@ This repo contains a list of action identifiers (from plist files) and their res
 
       "weather.forecast": "Get Weather Forecast"
     },
+    
+    "Messages": {
+      "sendmessage": "Send Message"
+    },
+  
+    "Notes": {
+      "apple.mobilenotes.SharingExtension": "Create Note",
 
-    "iTunes Store/Apple Music": {
-      "properties.itunesartist": "Get Details of iTunes Artist",
+      "apple.mobilenotes.ICNotesFolderIntent": "Show Folder",
 
-      "properties.itunesstore": "Get Details of iTunes Product",
+      "appendnote": "Append to Note",
 
-      "searchitunes": "Search iTunes Store",
+      "mobilenotes.SharingExtension": "Create Note",
 
-      "showinstore": "Show in iTunes Store",
+      "filter.notes": "Find Notes",
 
-      "filter.music": "Find Music",
+      "shownote": "Show Note",
 
-      "getcurrentsong": "Get Current Song",
+      "mobilenotes.ICNotesFolderIntent": "Show Notes Folder"
+    },
 
-      "properties.music": "Get Details of Music",
+    "Numbers": {
+      "apple.Numbers.TNiOSAddValuesToFormIntent": "Add Records to Form",
 
-      "playmusic": "Play Music",
+      "apple.Numbers.TNiOSAddValuesToSpreadsheetIntent": "Add Row to Top or Bottom of Table",
 
-      "exportsong": "Select Music",
+      "apple.Numbers.TSADocumentCreateIntent": "Create Spreadsheet",
 
-      "addtoplaylist": "Add to Playlist",
+      "apple.Numbers.TSADocumentOpenIntent": "Open Spreadsheet"
+    },
 
-      "createplaylist": "Create Playlist",
+    "Pages": {
+      "apple.Pages.TSADocumentCreateIntent": "Create Document",
 
-      "get.playlist": "Get Playlist",
+      "apple.Pages.TSADocumentOpenIntent": "Open Document",
 
-      "addmusictoupnext": "Add to Up Next",
+      "apple.Pages.TPDocumentBeginPresenterModeIntent": "Open Document in Presenter Mode"
+    },  
 
-      "clearupnext": "Clear Up Next"
+    "Phone": {
+      "detect.phonenumber": "Get Phone Numbers from Input",
+
+      "phonenumber": "Phone Number",
+
+      "selectcontacts": "Select Contact",
+
+      "selectphone": "Select Phone Number"
     },
 
     "Photos": {
@@ -1395,6 +1360,42 @@ This repo contains a list of action identifiers (from plist files) and their res
       "podcasts.subscribe": "Subscribe to Podcast"
     },
 
+    "Reminders": {
+      "addnewreminder": "Add New Reminder",
+
+      "setters.reminders": "Edit Reminder",
+
+      "filter.reminders": "Find Reminders",
+
+      "properties.reminders": "Get Details of Reminders",
+
+      "getupcomingreminders": "Get Upcoming Reminders",
+
+      "removereminders": "Remove Reminders",
+
+      "reminders.showlist": "Show Reminders List"
+    },
+
+    "Safari": {
+      "readinglist": "Add to Reading List",
+
+      "properties.safariwebpage": "Get Details of Safari Web Page",
+
+      "openurl": "Open URL",
+
+      "runjavascriptonwebpage": "Run JavaScript on Web Page",
+
+      "searchweb": "Search Web",
+
+      "showwebpage": "Show Web Page",
+
+      "filter.articles": "Filter Articles",
+
+      "getarticle": "Get Article Using Safari Reader",
+
+      "properties.article": "Get Details of Article"
+    },
+   
     "Siri Shortcuts": {
       "sirikit.donation.handle": "Siri Shortcuts Action (Action name cannot be retrieved)",
 
