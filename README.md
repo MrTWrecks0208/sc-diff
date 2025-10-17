@@ -496,14 +496,16 @@ This repo contains a list of action identifiers (from plist files) and their res
     },
 
     "Deliveries": {
+      
       "junecloud.Deliveries": {
-      ".JUNAddDeliveryIntent": "Add a delivery",
 
-      ".JUNShowDeliveriesIntent": "Check my deliveries",
+        ".JUNAddDeliveryIntent": "Add a delivery",
 
-      ".JUNNextDeliveryIntent": "Check my next delivery",
+        ".JUNShowDeliveriesIntent": "Check my deliveries",
 
-      ".JUNCheckDeliveryIntent": "Check on a delivery"
+        ".JUNNextDeliveryIntent": "Check my next delivery",
+
+        ".JUNCheckDeliveryIntent": "Check on a delivery"
       }
     },
     
