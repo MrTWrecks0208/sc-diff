@@ -9,7 +9,7 @@ This repo contains a list of action identifiers (from plist files) and their res
 
 {
   
-  "Native": {
+  **"Native"**: {
   
     "openapp": "Open App",
 
@@ -496,17 +496,14 @@ This repo contains a list of action identifiers (from plist files) and their res
     },
 
     "Deliveries": {
-      
-      "junecloud.Deliveries": {
+    
+        "junecloud.Deliveries.JUNAddDeliveryIntent": "Add a delivery",
 
-        ".JUNAddDeliveryIntent": "Add a delivery",
+        "junecloud.Deliveries.JUNShowDeliveriesIntent": "Check my deliveries",
 
-        ".JUNShowDeliveriesIntent": "Check my deliveries",
+        "junecloud.Deliveries.JUNNextDeliveryIntent": "Check my next delivery",
 
-        ".JUNNextDeliveryIntent": "Check my next delivery",
-
-        ".JUNCheckDeliveryIntent": "Check on a delivery"
-      }
+        "junecloud.Deliveries.JUNCheckDeliveryIntent": "Check on a delivery"
     },
     
     "DeskConnect": {
