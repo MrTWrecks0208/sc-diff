@@ -12,3 +12,5 @@ This list is non-exhaustive and is updated periodically. <strong>**It only conta
 ##### <em>Last Update: <strong>2026-01-01</strong><em>
  
 ##### <em>iOS Version: iOS 18</strong>
+
+The document can be found [here](https://github.com/MrTWrecks0208/sc-diff/blob/e4af4ef94906651b0ef4428b52207e4cbc769607/actions.json).
