@@ -1,11 +1,11 @@
 
- <img src="https://i.ibb.co/jgw1nNX/scDiff.png" style="width: 100%; height: 360px;text-align: center;">
+<img src="https://i.postimg.cc/FzSHQ21b/sc-Diff-2Landscape).png" style="width: 80%; height: auto;text-align: center;">
 
-sc diff is the <strong>FIRST</strong> shortcut to replicate the <code>diff</code> command from Git and display changes between two versions of a shortcut.
+sc diff is the <strong>FIRST</strong> shortcut to replicate the <code>git diff</code> function and display changes between two versions of a shortcut.
 
-This repo contains a list of action identifiers (<code>WFWorkflowActionIdentifier</code>) and their respective actions in Apple Shortcuts (formerly Workflow).
+This repo contains a collection of action identifiers (<code>WFWorkflowActionIdentifier</code>) and their respective actions in Apple Shortcuts (formerly Workflow).
 
-There are 3 main groupings&#8212;"Native" for actions which are native to the Apple Shortcuts app, "Third-Party Apps" for all apps where Apple is not the developer, and "Apple Apps" for apps where Apple is the developer. The next grouping is by app which contains all actions for the respective app.
+Actions are listed in key-value pairs where the key is the <code>WFActionidentifier</code> (found in the .plist file) and the value is the action as it is listed in the Shortcuts UI. Actions are contained inside Apps, and apps conatin 3 main categories&#8212;"Native" for native Shortcuts actions, "Third-Party" for apps wzxhere the developer is <strong><u>not</u></strong> Apple, and "Apple" for apps where the developer <strong>is</strong> Apple. 
 
 This list is non-exhaustive and is updated periodically. <strong>**It only contains FREE apps. No paid apps are listed.**</strong>
  
