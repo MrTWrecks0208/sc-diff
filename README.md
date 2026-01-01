@@ -5,7 +5,7 @@ sc diff is the <strong>FIRST</strong> shortcut to replicate the <code>git diff</
 
 This repo contains a collection of action identifiers (<code>WFWorkflowActionIdentifier</code>) and their respective actions in Apple Shortcuts (formerly Workflow).
 
-Actions are listed in key-value pairs where the key is the <code>WFActionidentifier</code> (found in the .plist file) and the value is the action as it is listed in the Shortcuts UI. Actions are contained inside Apps, and apps conatin 3 main categories&#8212;"Native" for native Shortcuts actions, "Third-Party" for apps wzxhere the developer is <strong><u>not</u></strong> Apple, and "Apple" for apps where the developer <strong>is</strong> Apple. 
+Actions are listed in key-value pairs where the key is the <code>WFActionidentifier</code> (found in the .plist file) and the value is the action as it is listed in the Shortcuts UI. Actions are contained inside Apps, and apps are split into 3 categories&#8212;"Native" for native Shortcuts actions, "Third-Party" for apps wzxhere the developer is <strong><u>not</u></strong> Apple, and "Apple" for apps where the developer <strong>is</strong> Apple. 
 
 This list is non-exhaustive and is updated periodically. <strong>**It only contains FREE apps. No paid apps are listed.**</strong>
  
