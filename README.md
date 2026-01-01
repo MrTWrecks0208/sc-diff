@@ -10,4 +10,5 @@ There are 3 main groupings&em;"Native" for actions which are native to the Apple
 This list is non-exhaustive and is updated periodically. <strong>**It only contains FREE apps. No paid apps are listed.**</strong>
  
  <em>Last Update: <strong>2026-01-01</strong><em>
+ 
  <em>iOS Version: iOS 18</strong>
