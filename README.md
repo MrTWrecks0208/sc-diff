@@ -1,7 +1,7 @@
 
 <img src="https://i.postimg.cc/FzSHQ21b/sc-Diff-2Landscape).png" style="width: 80%; height: auto;text-align: center;">
 
-sc diff is the <strong>FIRST</strong> shortcut to replicate the <code>git diff</code> function and display changes between two versions of a shortcut.
+#### sc diff is the <strong>FIRST</strong> shortcut to replicate the <code>git diff</code> function and display changes between two versions of a shortcut.
 
 This repo contains a collection of action identifiers (<code>WFWorkflowActionIdentifier</code>) and their respective actions in Apple Shortcuts (formerly Workflow).
 
@@ -9,6 +9,6 @@ Actions are listed in key-value pairs where the key is the <code>WFActionidentif
 
 This list is non-exhaustive and is updated periodically. <strong>**It only contains FREE apps. No paid apps are listed.**</strong>
  
- <em>Last Update: <strong>2026-01-01</strong><em>
+##### <em>Last Update: <strong>2026-01-01</strong><em>
  
- <em>iOS Version: iOS 18</strong>
+##### <em>iOS Version: iOS 18</strong>
