@@ -5,7 +5,7 @@ sc diff is the <strong>FIRST</strong> shortcut to replicate the <code>diff</code
 
 This repo contains a list of action identifiers (<code>WFWorkflowActionIdentifier</code>) and their respective actions in Apple Shortcuts (formerly Workflow).
 
-There are 3 main groupings&em;"Native" for actions which are native to the Apple Shortcuts app, "Third-Party Apps" for all apps which are not Apple apps (this includes Shortcuts), and "Apple Apps" for apps from Apple. The next grouping is by app which contains all actions for the respective app.
+There are 3 main groupings&#8212;"Native" for actions which are native to the Apple Shortcuts app, "Third-Party Apps" for all apps which are not Apple apps (this includes Shortcuts), and "Apple Apps" for apps from Apple. The next grouping is by app which contains all actions for the respective app.
 
 This list is non-exhaustive and is updated periodically. <strong>**It only contains FREE apps. No paid apps are listed.**</strong>
  
