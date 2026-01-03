@@ -419,6 +419,14 @@
 			"com.innovativedigitaltechnologies.ActivityBuilder.StopAllAppIntent": "Stop All Activities",
 			"com.innovativedigitaltechnologies.ActivityBuilder.UpdateTextAppIntent": "Update Text Activity"
 		},
+		"ADP Mobile": {
+			"com.adp.adpmobile.ADPNotificationDeleteAppIntent": "Delete Notification", 
+			"com.adp.adpmobile.ADPNotificationsWidgetFilterAppIntent": "Filter...",
+			"com.adp.adpmobile.ADPNotificationMarkAllReadAppIntent": "Mark All Notifications Read",
+			"com.adp.adpmobile.ClockPunchIntent": "Open Quick Clock",
+			"com.adp.adpmobile.ADPShowPaidTimeOffBalancesAppIntent": "Show Time Off Balances",
+			"com.adp.adpmobile.ADPWhatCanIDoAppIntent": "What can I do"
+		},
 		"Agenda": {
 			"com.momenta.agenda.ios.NoteEntity": "Find Note",
 			"com.momenta.agenda.ios.ProjectEntity": "Find Project",
@@ -618,6 +626,18 @@
 		},
 		"American (American Airlines)": {
 			"com.aa.AmericanAirlines.TravelCueIntent": "Latest Flight Information"
+		},
+		"Amie": {
+			"so.amie.ios-app.MarkTodoDoneIntent": "Mark todo done"
+		},
+		"Amplenote": {
+			"com.amplenote.amplenote.AddTaskToJotsIntent": "Add to Daily Jots",
+			"com.amplenote.amplenote.AddTaskMultipleNotesIntent": "Add to Notes",
+			"com.amplenote.amplenote.CreateNoteIntent": "Create Note",
+			"com.amplenote.amplenote.FindNotesIntent": "Find Notes",
+			"com.amplenote.amplenote.GetFormattingIntent": "Get Formatting",
+			"com.amplenote.amplenote.SelectNotesIntent": "Get Notes",
+			"com.amplenote.amplenote.CreateTagIntent": "Get Tag"
 		},
 		"Another Timer": {
 			"com.dippnerd.Another-Timer.CheckTimerIntent": "Check Timer",
@@ -834,6 +854,12 @@
 		},
 		"Beeminder": {
 			"com.beeminder.beeminder.AddDataIntent": "Add Data"
+		},
+		"Bible Chat": {
+			"com.basmo.BibleChat.ChristmasWidgetAppIntent": ".",
+			"com.basmo.BibleChat.BibleChatIntents": "BibleChatIntents",
+			"com.basmo.BibleChat.DailyPlanLiveActivityIntent": "Onboarding Live Activity",
+			"com.basmo.BibleChat.OnboardingLiveActivityIntent": "Onboarding Live Activity"
 		},
 		"Binaural": {
 			"com.giorgiocalderolla.binaural.PauseIntent": "Pause",
@@ -1126,6 +1152,11 @@
 			"com.rockbruno.ios.BurnoutBuddy.EnableCustomConditionSchemaIntent": "Enable a schema's 'Custom' toggle",
 			"com.rockbruno.ios.BurnoutBuddy.ToggleCustomConditionSchemaIntent": "Flip a schema's 'Custom' toggle",
 			"com.rockbruno.ios.BurnoutBuddy.SetCustomConditionSchemaIntent": "Set a schema's 'Custom' toggle"
+		},
+		"ByDesign": {
+			"com.idealist.whiteboard.OpenEditModalIntentIntent": "Add detailed task",
+			"com.idealist.whiteboard.AddInboxItemIntentIntent": "Inbox Task",
+			"com.idealist.whiteboard.AddItemIntentIntent": "Quick Task"
 		},
 		"CalAI": {
 			"com.viraldevelopment.CalAI.LogFoodIntent": "Log Food"
@@ -1487,6 +1518,12 @@
 			"me.clarityapp.MyFavoriteIntent": "Random Saved Wallpaper",
 			"me.clarityapp.ClarityWallpaper": "Set Clarity Wallpaper",
 			"me.clarityapp.DailyWallpaperIntent": "Today's Wallpaper"
+		},
+		"Clay": {
+			"com.clay.ios.ComposeNoteIntent": "Compose Note",
+			"com.clay.ios.CreateContactIntent": "Create Contact",
+			"com.clay.ios.LaunchNoteIntent": "Launch Note",
+			"com.clay.ios.SearchPeopleIntent": "Search Your Network"
 		},
 		"Clean OSC": {
 			"xyz.heestand.clean-osc.SendOSCNumberIntent": "Send OSC Number",
@@ -2084,6 +2121,10 @@
 			"app.essayist.essayist.OpenGoogleScholar": "Open Google Scholar",
 			"app.essayist.essayist.OpenReferenceLibrary": "Open Reference Manager",
 			"app.essayist.essayist.InAppSearchIntent": "Search"
+		},
+		"Everlance": {
+			"com.everlance.everlance.DoneDrivingApp": "Done Driving",
+			"com.everlance.everlance.StillDrivingApp": "Done Driving"
 		},
 		"everyday": {
 			"app.everyday.AddCounterShortcutIntent": "Add Counter",
@@ -2756,6 +2797,10 @@
 		"Homepage": {
 			"com.ip18.Homepage.SetHomepageIntent": "Set Homepage"
 		},
+		"HoneyBook": {
+			"com.honeybook.alfred.TimerPauseIntent": "Pause Timer",
+			"com.honeybook.alfred.TimerRunIntent": "Start Timer"
+		},
 		"Horse Riding [Tracker]": {
 			"eu.rozga.HorseRidingTracker.RecordSessionIntent": "Start workout",
 			"eu.rozga.HorseRidingTracker.MyPauseWorkoutIntent": "My Intent",
@@ -2798,6 +2843,11 @@
 			"com.behindtechlines.HTTPBot.MakeRequestIntent": "Make Request",
 			"com.behindtechlines.HTTPBot.MakeRequestWithVariablesIntent": "Make Request With Variables",
 			"com.behindtechlines.HTTPBot.FilterJSONIntent": "Query/Filter JSON, XML, or HTML"
+		},
+		"HubSpot": {
+			"com.hubspot.CRMAppRelease.MarkTaskAsDoneIntent": "Mark Task as Done",
+			"com.hubspot.CRMAppRelease.OpenAppIntent": "Open HubSpot",
+			"com.hubspot.CRMAppRelease.OpenTaskIntent": "Open Task"
 		},
 		"I am": {
 			"com.MonkeyTaps.IAM.ReadMoreControlWidgetIntent": "I am",
@@ -3026,6 +3076,13 @@
 			"com.samuelcoe.Relate.GetPreviousInteractionIntent": "Get Previous Interaction",
 			"com.samuelcoe.Relate.RecordInteractionIntent": "Record Interaction"
 		},
+		"Linear": {
+			"com.linear.ios.ComposeIssueIntent": "Compose issue",
+			"com.linear.ios.CreateIssueIntent": "Create issue",
+			"com.linear.ios.OpenRouteIntent": "Open issue",
+			"com.linear.ios.OpenIssueIntent": "Open issue",
+			"com.linear.ios.OpenLinearIntent": "Open Linear"
+		},
 		"Linkeeper": {
 			"org.starlightapps.Linkeeper.LinkeeperBookmarkEntity": "Find Bookmark",
 			"org.starlightapps.Linkeeper.FolderEntity": "Find Folder",
@@ -3035,6 +3092,12 @@
 			"org.starlightapps.Linkeeper.DeleteFolder": "Delete Folder",
 			"org.starlightapps.Linkeeper.MoveBookmark": "Move Bookmark",
 			"org.starlightapps.Linkeeper.FavoriteToggle": "Set Favorite Status"
+		},
+		"LittyTone": {
+			"com.chuangyuanhuaqi.trimtone.ChargeEndToneIntent": "Charge ends tone",
+			"com.chuangyuanhuaqi.trimtone.ChargeStartToneIntent": "Charge starts tone",
+			"com.chuangyuanhuaqi.trimtone.FullChargeToneIntent": "Full Charge tone",
+			"com.chuangyuanhuaqi.trimtone.LowBatteryToneIntent": "Low Battery tone"
 		},
 		"Loccali": {
 			"com.pierrejanineh.Loccali.AppendToArrayIntent": "Append To Array",
@@ -3246,6 +3309,16 @@
 			"com.yedi70.meditasyon.SearchIntentForShortcut": "Search",
 			"com.yedi70.meditasyon.ShowMindfulScoreIntent": "Show Mindfulness Points",
 			"com.yedi70.meditasyon.ShowMyLevelIntent": "Show Wellbeing Level"
+		},
+		"Mem": {
+			"com.mem-labs.mem.CollectionEntity": "Find Collection",
+			"com.mem-labs.mem.StartChatIntent": "Start Chat",
+			"com.mem-labs.mem.OpenCollectionIntent": "Open Collection",
+			"com.mem-labs.mem.CreateNoteIntent": "Create Note",
+			"com.mem-labs.mem.GetRecentNotesIntent": "Get Recent Notes",
+			"com.mem-labs.mem.OpenNoteIntent": "Open Note",
+			"com.mem-labs.mem.RecordVoiceNoteIntent": "Record Voice Note",
+			"com.mem-labs.mem.SearchNotesIntent": "Search Notes"
 		},
 		"Menu Box": {
 			"dev.alexhay.MenuBox.CreateMenuSetIntent": "Add To Menu Set",
