@@ -1,161 +1,279 @@
 {
-    "Native": {
-    "AmazonLinker.convert": "Convert URL with Associate",
-    "AmazonLinker.search": "Search in Associate",
-    "Editorial.runworkflow": "Run Editorial Workflow",
-    "Opener.show-options": "Open URL in Opener",
-    "Pythonista.editscript": "Edit Script (Pythonista)",
-    "Pythonista.runscript": "Run Script (Pythonista)",
-    "Tally2.get": "Get Tally (Tally)",
-    "Tally2.updatetally": "Update Tally (Tally)",
-    "addframetogif": "Add Frame to GIF",
-    "burbn.instagram.openin": "Post on Instagram",
-    "cloudapp.upload": "Upload to CloudApp",
-    "com.apple.ShortcutsActions.GetOrientationAction": "Get Orientation",
-    "com.apple.ShortcutsActions.GetPhysicalActivity": "Get Physical Activity",
-    "com.apple.ShortcutsActions.ResetCellularDataStatisticsAction": "Reset Cellular Data Statistics",
-    "com.apple.ShortcutsActions.SetSilentModeAction": "Set Silent Mode",
-    "com.apple.ShortcutsActions.ShowControlCenterAction": "Show Control Center",
-    "com.apple.ShortcutsActions.TranscribeAudioAction": "Transcribe Audio",
-    "is.workflow.actions.detect.images": "Get Images from Input",
-    "detect.link": "Get URLs from Input",
-    "downloadurl": "Get Contents of URL",
-    "is.workflow.actions.encodemedia": "Encode Media",
-    "evernote.append": "Append to Evernote",
-    "evernote.delete": "Delete Notes (Evernote)",
-    "evernote.get": "Get Notes (Evernote)",
-    "evernote.getlink": "Get Note Link (Evernote)",
-    "evernote.new": "Create New Note (Evernote)",
-    "filter.images": "Filter Images",
-    "is.workflow.actions.generatebarcode": "Generate QR Code",
-    "getframesfromimage": "Get Frames from Image",
-    "is.workflow.actions.gethtmlfromrichtext": "Make HTML from Rich Text",
-    "is.workflow.actions.getmarkdownfromrichtext": "Make Markdown from Rich Text",
-    "is.workflow.actions.getrichtextfromhtml": "Make Rich Text from HTML",
-    "is.workflow.actions.getrichtextfrommarkdown": "Make Rich Text from Markdown",
-    "geturlcomponent": "Get Component of URL",
-    "getwebpagecontents": "Get Contents of Web Page",
-    "giphy": "Search Giphy",
-    "goodreader.open": "Open in GoodReader",
-    "is.workflow.actions.handoff": "Continue in Shortcuts App",
-    "is.workflow.actions.image.combine": "Combine Images",
-    "is.workflow.actions.image.convert": "Convert Image",
-    "is.workflow.actions.image.crop": "Crop Image",
-    "is.workflow.actions.image.flip": "Flip Image",
-    "is.workflow.actions.image.mask": "Mask Image",
-    "is.workflow.actions.image.overlay": "Overlay Image",
-    "is.workflow.actions.image.resize": "Resize Image",
-    "is.workflow.actions.image.rotate": "Rotate Image",
-    "imgur.upload": "Upload to Imgur",
-    "instapaper.add": "Add to Instapaper",
-    "instapaper.get": "Get Instapaper Bookmarks",
-    "is.workflow.actions.adjustdate": "Adjust Date",
-    "is.workflow.actions.appendvariable": "Add to Variable",
-    "is.workflow.actions.ask": "Ask for Input",
-    "is.workflow.actions.base64encode": "Base64 Encode",
-    "is.workflow.actions.calculateexpression": "Calculate Expression",
-    "is.workflow.actions.choosefromlist": "Choose from List",
-    "is.workflow.actions.choosefrommenu": "Choose from Menu",
-    "is.workflow.actions.comment": "Comment",
-    "is.workflow.actions.conditional": "If",
-    "is.workflow.actions.converttimezone": "Convert Time Zone",
-    "is.workflow.actions.correctspelling": "Correct Spelling",
-    "is.workflow.actions.count": "Count",
-    "is.workflow.actions.date": "Date",
-    "is.workflow.actions.delay": "Wait",
-    "is.workflow.actions.detect.date": "Detect Date",
-    "is.workflow.actions.detect.dictionary": "Get Dictionary from Input",
-    "is.workflow.actions.detect.numbers": "Get Numbers from Input",
-    "is.workflow.actions.detect.text": "Get Text from Input",
-    "is.workflow.actions.detectlanguage": "Detect Language with Microsoft",
-    "is.workflow.actions.dictatetext": "Dictate Text",
-    "is.workflow.actions.dictionary": "Dictionary",
-    "is.workflow.actions.exit": "Exit Shortcut",
-    "is.workflow.actions.format.date": "Format Date",
-    "is.workflow.actions.format.filesize": "Format File Size",
-    "is.workflow.actions.format.number": "Format Number",
-    "is.workflow.actions.getcurrentapp": "Get Current App",
-    "is.workflow.actions.getitemfromlist": "Get Item from List",
-    "is.workflow.actions.getitemname": "Get Name",
-    "is.workflow.actions.getitemtype": "Get Type",
-    "is.workflow.actions.getmyworkflows": "Get My Shortcuts",
-    "is.workflow.actions.getnameofemoji": "Get Name of Emoji",
-    "is.workflow.actions.getonscreencontent": "Get What's On Screen",
-    "is.workflow.actions.gettext": "Text",
-    "is.workflow.actions.gettimebetweendates": "Get Time Between Dates",
-    "is.workflow.actions.getvalueforkey": "Get Value in Dictionary",
-    "is.workflow.actions.getvariable": "Get Variable",
-    "is.workflow.actions.hash": "Generate Hash",
-    "is.workflow.actions.list": "List",
-    "is.workflow.actions.lockscreen": "Lock Screen",
-    "is.workflow.actions.makespokenaudiofromtext": "Make Spoken Audio from Text",
-    "is.workflow.actions.math": "Calculate",
-    "is.workflow.actions.measurement.convert": "Convert Measurement",
-    "is.workflow.actions.measurement.create": "Measurement",
-    "is.workflow.actions.nightshift.set": "Set Night Shift",
-    "is.workflow.actions.nothing": "Nothing",
-    "is.workflow.actions.number": "Number",
-    "is.workflow.actions.number.random": "Random Number",
-    "is.workflow.actions.number.round": "Round Number",
-    "is.workflow.actions.openapp": "Open App",
-    "is.workflow.actions.openworkflow": "Open Shortcut",
-    "is.workflow.actions.openxcallbackurl": "Open X-Callback URL",
-    "is.workflow.actions.output": "Stop and Output",
-    "is.workflow.actions.personalhotspot.set": "Set Personal HotSpot",
-    "is.workflow.actions.previewdocument": "Quick Look",
-    "is.workflow.actions.repeat.count": "Repeat",
-    "is.workflow.actions.repeat.each": "Repeat with Each",
-    "is.workflow.actions.returntohomescreen": "Return to Home Screen",
-    "is.workflow.actions.runsshscript": "Run Script Over SSH",
-    "is.workflow.actions.runworkflow": "Run Shortcut",
-    "is.workflow.actions.setairdropreceiving": "Set Airdrop Receiving",
-    "is.workflow.actions.setitemname": "Set Name",
-    "is.workflow.actions.setvalueforkey": "Set Value in Dictionary",
-    "is.workflow.actions.setvariable": "Set Variable",
-    "is.workflow.actions.showdefinition": "Show Definition",
-    "is.workflow.actions.showresult": "Show Result",
-    "is.workflow.actions.speaktext": "Speak Text",
-    "is.workflow.actions.statistics": "Calculate Statistics",
-    "is.workflow.actions.text.changecase": "Change Case",
-    "is.workflow.actions.text.combine": "Combine Text",
-    "is.workflow.actions.text.match": "Match Text",
-    "is.workflow.actions.text.match.getgroup": "Get Group from Match Text",
-    "is.workflow.actions.text.replace": "Replace Text",
-    "is.workflow.actions.text.split": "Split Text",
-    "is.workflow.actions.text.translate": "Translate Text with Microsoft",
-    "is.workflow.actions.text.trimwhitespace": "Trim Whitespace",
-    "is.workflow.actions.truetone.set": "Set True Tone",
-    "is.workflow.actions.urlencode": "URL Encode",
-    "is.workflow.actions.viewresult": "View Content Graph",
-    "is.workflow.actions.vpn.set": "Set VPN",
-    "is.workflow.actions.waittoreturn": "Wait to Return",
-    "lightroom.import": "Import to Lightroom",
-    "is.workflow.actions.makegif": "Make GIF",
-    "is.workflow.actions.makepdf": "Make PDF",
-    "is.workflow.actions.makevideofromgif": "Make Video from GIF",
-    "is.workflow.actions.openin": "Open In [App]",
-    "overcast.add": "Add to Overcast",
-    "pinboard.add": "Add to Pinboard",
-    "pinboard.get": "Get Pinboard Bookmarks",
-    "pocket.add": "Add to Pocket",
-    "postonfacebook": "Post on Facebook",
-    "print": "Print",
-    "properties.images": "Get Details of Images",
-    "rss": "Get Items from RSS Feed",
-    "rss.extract": "Get RSS Feed from Page",
-    "runextension": "Share With Extension",
-    "is.workflow.actions.scanbarcode": "Scan QR/Bar Code",
-    "share": "Share",
-    "showinblindsquare": "Show in BlindSquare",
-    "trimvideo": "Trim Media",
-    "tumblr.post": "Post on Tumblr",
-    "url": "URL",
-    "url.expand": "Expand URL",
-    "url.getheaders": "Get Headers of URL",
-    "whatsapp.WhatsApp.openin": "Send Photo via WhatsApp",
-    "whatsapp.WhatsApp.send": "Send Message via WhatsApp",
-    "wordpress.post": "Post to WordPress"
-  },
+  "Native": {
+    "Scripting": {
+        "is.workflow.actions.comment": "Comment",
+        "is.workflow.actions.showresult": "Show Result",
+        "is.workflow.actions.alert": "Show Alert",
+        "is.workflow.actions.ask": "Ask for Input",
+        "is.workflow.actions.count": "Count",
+        "is.workflow.actions.choosefrommenu": "Choose from Menu",
+        "is.workflow.actions.conditional": "If",
+        "is.workflow.actions.repeat.count": "Repeat",
+        "is.workflow.actions.repeat.each": "Repeat with Each",
+        "is.workflow.actions.delay": "Wait",
+        "is.workflow.actions.setvariable": "Set Variable",
+        "is.workflow.actions.getvariable": "Get Variable",
+        "is.workflow.actions.appendvariable": "Add to Variable",
+        "is.workflow.actions.list": "List",
+        "is.workflow.actions.choosefromlist": "Choose from List",
+        "is.workflow.actions.getitemfromlist": "Get Item from List",
+        "is.workflow.actions.dictionary": "Dictionary",
+        "is.workflow.actions.getvalueforkey": "Get Value in Dictionary",
+        "is.workflow.actions.setvalueforkey": "Set Value in Dictionary",
+        "is.workflow.actions.detect.dictionary": "Get Dictionary from Input",
+        "is.workflow.actions.number": "Number",
+        "is.workflow.actions.number.random": "Random Number",
+        "is.workflow.actions.round": "Round Number",
+        "is.workflow.actions.format.number": "Format Number",
+        "is.workflow.actions.detect.number": "Get Numbers from Input",
+        "is.workflow.actions.math": "Calculate",
+        "is.workflow.actions.calculateexpression": "Calculate Expression",
+        "is.workflow.actions.statistics": "Calculate Statistics",
+        "is.workflow.actions.measurement.create": "Measurement",
+        "is.workflow.actions.measurement.convert": "Convert Measurement",
+        "is.workflow.actions.date": "Date",
+        "is.workflow.actions.format.date": "Format Date",
+        "is.workflow.actions.adjustdate": "Adjust Date",
+        "is.workflow.actions.gettimebetweendates": "Get Time Between Dates",
+        "is.workflow.actions.detect.date": "Detect Date",
+        "is.workflow.actions.gettext": "Text",
+        "is.workflow.actions.detect.text": "Get Text from Input",
+        "is.workflow.actions.showdefinition": "Show Definition",
+        "is.workflow.actions.getnameofemoji": "Get Name of Emoji",
+        "is.workflow.actions.text.changecase": "Change Case",
+        "is.workflow.actions.text.combine": "Combine Text",
+        "is.workflow.actions.text.split": "Split Text",
+        "is.workflow.actions.text.replace": "Replace Text",
+        "is.workflow.actions.text.trimwhitespace": "Trim Whitespace",
+        "is.workflow.actions.text.match": "Match Text",
+        "is.workflow.actions.text.match.getgroup": "Get Group from Match Text",
+        "is.workflow.actions.correctspelling": "Correct Spelling",
+        "is.workflow.actions.dictatetext": "Dictate Text",
+        "com.apple.ShortcutsActions.TranscribeAudioAction": "Transcribe Audio",
+        "is.workflow.actions.speaktext": "Speak Text",
+        "is.workflow.actions.makespokenaudiofromtext": "Make Spoken Audio from Text",
+        "is.workflow.actions.detectlanguage": "Detect Language with Microsoft",
+        "is.workflow.actions.text.translate": "Translate Text with Microsoft",
+        "is.workflow.actions.getitemname": "Get Name",
+        "is.workflow.actions.getitemtype": "Get Type",
+        "is.workflow.actions.setitemname": "Set Name",
+        "is.workflow.actions.previewdocument": "Quick Look",
+        "is.workflow.actions.viewresult": "View Content Graph",
+        "is.workflow.actions.getmyworkflows": "Get My Shortcuts",
+        "is.workflow.actions.runworkflow": "Run Shortcut",
+        "is.workflow.actions.getonscreencontent": "Get What's On Screen",
+        "is.workflow.actions.base64encode": "Base64 Encode",
+        "is.workflow.actions.hash": "Generate Hash",
+        "is.workflow.actions.urlencode": "URL Encode",
+        "is.workflow.actions.format.filesize": "Format File Size",
+        "is.workflow.actions.output": "Stop and Output",
+        "is.workflow.actions.exit": "Stop This Shortcut",
+        "is.workflow.actions.waittoreturn": "Wait to Return",
+        "is.workflow.actions.runsshscript": "Run Script Over SSH",
+        "is.workflow.actions.openxcallbackurl": "Open X-Callback URL",
+        "is.workflow.actions.nothing": "Nothing"
+    },
+    "Controls": {
+        "com.apple.ShortcutsActions.SetSilentModeAction": "Set Silent Mode",
+        "is.workflow.actions.dnd.set": "Set Focus",
+        "is.workflow.actions.setvolume": "Set Volume",
+        "is.workflow.actions.flashlight": "Set Flashlight",
+        "is.workflow.actions.lowpowermode.set": "Set Low Power Mode",
+        "is.workflow.actions.reboot": "Shut Down",
+        "is.workflow.actions.airplanemode.set": "Set Airplane Mode",
+        "is.workflow.actions.wifi.set": "Set Wi-Fi",
+        "is.workflow.actions.bluetooth.set": "Set Bluetooth",
+        "is.workflow.actions.cellulardata.set": "Set Cellular Data",
+        "is.workflow.actions.personalhotspot.set": "Set Personal Hotspot",
+        "is.workflow.actions.vpn.set": "Set VPN",
+        "is.workflow.actions.setairdropreceiving": "Set AirDrop Receiving",
+        "is.workflow.actions.appearance": "Set Appearance",
+        "is.workflow.actions.orientationlock.set": "Set Orientation Lock",
+        "is.workflow.actions.setbrightness": "Set Brightness",
+        "is.workflow.actions.truetone.set": "Set True Tone",
+        "is.workflow.actions.nightshift.set": "Set Night Shift",
+        "is.workflow.actions.display.always-on.set": "Set Always On Display",
+        "is.workflow.actions.lockscreen": "Lock Screen",
+        "is.workflow.actions.openapp": "Open App",
+        "is.workflow.actions.returntohomescreen": "Go to Home Screen",
+        "com.apple.ShortcutsActions.ShowControlCenterAction": "Show Control Center",
+        "is.workflow.actions.takephoto": "Take Photo",
+        "is.workflow.actions.takevideo": "Take Video",
+        "is.workflow.actions.recordaudio": "Record Audio",
+        "is.workflow.actions.takescreenshot": "Take Screenshot"
+    },
+    "Device": {
+        "is.workflow.actions.getdevicedetails": "Get Device Details",
+        "is.workflow.actions.getbatterylevel": "Get Battery Level",
+        "is.workflow.actions.getcurrentapp": "Get Current App",
+        "com.apple.ShortcutsActions.GetOrientationAction": "Get Orientation",
+        "is.workflow.actions.dnd.getfocus": "Get Current Focus",
+        "com.apple.ShortcutsActions.GetPhysicalActivity": "Get Physical Activity",
+        "is.workflow.actions.setclipboard": "Copy to Clipboard",
+        "is.workflow.actions.getclipboard": "Get Clipboard",
+        "is.workflow.actions.notification": "Show Notification",
+        "is.workflow.actions.playsound": "Play Sound",
+        "is.workflow.actions.vibrate": "Vibrate Device",
+        "is.workflow.actions.getipaddress": "Get Current IP Address",
+        "is.workflow.actions.getwifi": "Get Network Details",
+        "is.workflow.actions.personalhotspot.password.get": "Get Hotspot Password",
+        "is.workflow.actions.personalhotspot.password.set": "Set Hotspot Password",
+        "com.apple.ShortcutsActions.ResetCellularDataStatisticsAction": "Reset Cellular Data Statistics",
+        "is.workflow.actions.wallpaper.set": "Set Wallpaper",
+        "is.workflow.actions.posters.get": "Get All Wallpapers",
+        "is.workflow.actions.posters.switch": "Switch Between Wallpapers"
+    },
+    "Location": {
+        "is.workflow.actions.getcurrentlocation": "Get Current Location",
+        "is.workflow.actions.searchlocalbusinesses": "Find Places",
+        "is.workflow.actions.filter.locations": "Filter Locations",
+        "is.workflow.actions.getdirections": "Open Directions",
+        "is.workflow.actions.searchmaps": "Open in Maps",
+        "is.workflow.actions.ride.requestride": "Request Ride",
+        "is.workflow.actions.properties.locations": "Get Details of Location",
+        "is.workflow.actions.location": "Location",
+        "is.workflow.actions.getmapslink": "Get Maps URL",
+        "is.workflow.actions.address": "Street Address",
+        "is.workflow.actions.detect.address": "Get Address from Input",
+        "is.workflow.actions.getparkedcarlocation": "Get Parked Car Location",
+        "is.workflow.actions.properties.parkedcar": "Get Details of Parked Car",
+        "is.workflow.actions.setparkedcar": "Set Parked Car"
+    },
+    "Media": {
+        "is.workflow.actions.image.convert": "Convert Image",
+        "is.workflow.actions.filter.images": "Filter Images",
+        "is.workflow.actions.properties.images": "Get Details of Images",
+        "is.workflow.actions.detect.images": "Get Images from Input",
+        "is.workflow.actions.makeimagefrompdfpage": "Make Image from PDF Page",
+        "is.workflow.actions.makeimagefromrichtext": "Made Image from Rich Text",
+        "is.workflow.actions.extracttextfromimage": "Extract Text from Image",
+        "is.workflow.actions.avairyeditphoto": "Markup",
+        "is.workflow.actions.image.combine": "Combines Images",
+        "is.workflow.actions.image.crop": "Crop Image",
+        "is.workflow.actions.image.flip": "Flip Image",
+        "is.workflow.actions.image.mask": "Mask Image",
+        "is.workflow.actions.overlayimageonimage": "Overlay Image",
+        "is.workflow.actions.overlaytext": "Overlay Text",
+        "is.workflow.actions.image.resize": "Resize Image",
+        "is.workflow.actions.image.rotate": "Rotate Image/Video",
+        "is.workflow.actions.image.removebackground": "Remove Image Background",
+        "is.workflow.actions.makegif": "Make GIF",
+        "is.workflow.actions.makevideofromgif": "Make Video from GIF",
+        "is.workflow.actions.addframetogif": "Add Frame to GIF",
+        "is.workflow.actions.getframesfromimage": "Get Frames from Image",
+        "is.workflow.actions.savetocameraroll": "Save to Photos",
+        "is.workflow.actions.selectphoto": "Select Photos",
+        "is.workflow.actions.filter.photos": "Find Photos",
+        "is.workflow.actions.getlastphoto": "Get Latest Photos",
+        "is.workflow.actions.getlastvideo": "Get Latest Videos",
+        "is.workflow.actions.getlastscreenshot": "Get Latest Screenshots",
+        "is.workflow.actions.getlatestbursts": "Get Latest Bursts",
+        "is.workflow.actions.getlatestlivephotos": "Get Latest Live Photos",
+        "is.workflow.actions.getlatestphotoimport": "Get Last Import",
+        "is.workflow.actions.removefromalbum": "Remove from Photo Album",
+        "is.workflow.actions.deletephotos": "Delete Photos",
+        "is.workflow.actions.encodemedia": "Encode Media",
+        "is.workflow.actions.trimvideo": "Trim Media",
+        "is.workflow.actions.setvolume": "Set Volume",
+        "is.workflow.actions.pausemusic": "Play/Pause",
+        "is.workflow.actions.seek": "Seek",
+        "is.workflow.actions.skipback": "Skip Back",
+        "is.workflow.actions.skipforward": "Skip Forward",
+        "is.workflow.actions.listeningmode.set": "Set Noise Control Mode",
+        "is.workflow.actions.handoffplayback": "Hand Off Playback",
+        "is.workflow.actions.setplaybackdestination": "Change Playback Destination",
+        "is.workflow.actions.exportsong": "Select Music",
+        "is.workflow.actions.filter.music": "Find Music",
+        "is.workflow.actions.playmusic": "Play Music",
+        "is.workflow.actions.addmusictoupnext": "Add to Playing Next",
+        "is.workflow.actions.clearupnext": "Clear Playing Next",
+        "is.workflow.actions.getcurrentsong": "Get Current Song",
+        "is.workflow.actions.properties.music": "Get Details of Music",
+        "is.workflow.actions.addtoplaylist": "Add to Playlist",
+        "is.workflow.actions.createplaylist": "Create Playlist",
+        "is.workflow.actions.get.playlist": "Get Playlist",
+        "is.workflow.actions.searchpodcasts": "Find Podcasts",
+        "is.workflow.actions.podcasts.subscribe": "Follow Podcast",
+        "is.workflow.actions.playpodcast": "Play Podcast",
+        "is.workflow.actions.getepisodesforpodcast": "Get Episodes of Podcast",
+        "is.workflow.actions.getpodcastsfromlibrary": "Get Podcasts from Library",
+        "is.workflow.actions.properties.podcastshow": "Get Details of Podcast",
+        "is.workflow.actions.properties.podcast": "Get Details of Podcas"
+    },
+    "Sharing": {
+        "is.workflow.actions.share": "Share",
+        "is.workflow.actions.runextension": "Share with Apps",
+        "is.workflow.actions.sendmessage": "Send Message",
+        "is.workflow.actions.sendemail": "Send Email",
+        "is.workflow.actions.airdropdocument": "AirDrop",
+        "is.workflow.actions.setclipboard": "Copy to Clipboard",
+        "is.workflow.actions.getclipboard": "Get Clipboard",
+        "com.apple.mobileslideshow.StreamShareService": "Post to Shardd Album",
+        "is.workflow.actions.generatebarcode": "Generate QR Code",
+        "is.workflow.actions.scanbarcode": "Scan QR or Barcode"
+    },
+    "Documents": {
+        "is.workflow.actions.print": "Print",
+        "is.workflow.actions.makepdf": "Make PDF",
+        "is.workflow.actions.compresspdf": "Optimize File Size of PDF",
+        "is.workflow.actions.splitpdf": "Split PDF Into Pages",
+        "is.workflow.actions.gettextfrompdf": "Get Text from PDF",
+        "is.workflow.actions.file": "File",
+        "is.workflow.actions.file.select": "Select File",
+        "is.workflow.actions.file.move": "Move File",
+        "is.workflow.actions.file.rename": "Rename File",
+        "is.workflow.actions.documentpicker.save": "Save File",
+        "is.workflow.actions.file.delete": "Delete File",
+        "is.workflow.actions.file.getlink": "Get Link to File",
+        "is.workflow.actions.file.createfolder": "Create Folder",
+        "is.workflow.actions.file.getfoldercontents": "Get Contents of Folder",
+        "is.workflow.actions.documentpicker.open": "Get Files from Folder",
+        "is.workflow.actions.file.append": "Append to Text File",
+        "is.workflow.actions.makezip": "Make Archive",
+        "is.workflow.actions.unzip": "Extract Archive",
+        "is.workflow.actions.openin": "Open File",
+        "is.workflow.actions.properties.files": "Get Details of Files",
+        "is.workflow.actions.filter.files": "Filter Files",
+        "is.workflow.actions.gethtmlfromrichtext": "Get HTML from Rich Text",
+        "is.workflow.actions.getmarkdownfromrichtext": "Get Markdown from Rich Text",
+        "is.workflow.actions.getrichtextfromhtml": "Get Rich Text from HTML",
+        "is.workflow.actions.getrichtextfrommarkdown": "Get Rich Text from Markdown"
+    },
+    "Other Actions": {
+        "Opener.show-options": "Open URL in Opener",
+        "overcast.add": "Add to Overcast",
+        "imgur.upload": "Upload to Imgur",
+        "postonfacebook": "Post on Facebook",
+        "instapaper.get": "Get Instapaper Bookmarks",
+        "handoff": "Continue in Shortcuts App",
+        "Tally2.get": "Get Tally (Tally)",
+        "tumblr.post": "Post on Tumblr",
+        "Pythonista.runscript": "Run Script (Pythonista)",
+        "Editorial.runworkflow": "Run Editorial Workflow",
+        "evernote.new": "Create New Note (Evernote)",
+        "Pythonista.editscript": "Edit Script (Pythonista)",
+        "whatsapp.WhatsApp.openin": "Send Photo via WhatsApp",
+        "AmazonLinker.search": "Search in Associate",
+        "goodreader.open": "Open in GoodReader",
+        "whatsapp.WhatsApp.send": "Send Message via WhatsApp",
+        "lightroom.import": "Import to Lightroom",
+        "burbn.instagram.openin": "Post on Instagram",
+        "evernote.getlink": "Get Note Link (Evernote)",
+        "Tally2.updatetally": "Update Tally (Tally)",
+        "AmazonLinker.convert": "Convert URL with Associate",
+        "giphy": "Search Giphy",
+        "evernote.delete": "Delete Notes (Evernote)",
+        "pinboard.get": "Get Pinboard Bookmarks",
+        "instapaper.add": "Add to Instapaper",
+        "evernote.append": "Append to Evernote",
+        "pocket.add": "Add to Pocket",
+        "cloudapp.upload": "Upload to CloudApp",
+        "wordpress.post": "Post to WordPress",
+        "pinboard.add": "Add to Pinboard",
+        "evernote.get": "Get Notes (Evernote)",
+        "showinblindsquare": "Show in BlindSquare"
+      }
+    },
   "Third-Party Apps": {
     "!Camera": {
       "com.andyworks.camera.NBCameraCaptureIntent": "NBCameraCaptureIntent (!Camera)"
@@ -1087,6 +1205,41 @@
       "ch.publisheria.bring.BringOpenAppIntent": "Open Bring! (Bring!)",
       "ch.publisheria.bring.BringRecipeAppIntent": "Save recipe (Bring!)"
     },
+    "ChatBox AI": {
+      "genius.chat.SuperChatEngagementDeeplinkAppIntent": "AI Assistant",
+      "genius.chat.Text2ImageEngagementDeeplinkAppIntent": "Image Generator",
+      "genius.chat.Voice2VoiceEngagementDeeplinkAppIntent": "Voice Chat"
+    },
+    "ChatOn AI": {
+      "com.aiby.chat.OpenChatIntent": "Open a new chat"
+    },
+    "Grit": {
+      "stoope.Grit.AddNoteHabitIntent": "Add note",
+      "stoope.Grit.AddProgressHabitIntent": "Add Value",
+      "stoope.Grit.CompleteHabitIntent": "Complete",
+      "stoope.Grit.CreateHabitIntent": "Create new habit",
+      "stoope.Grit.FailHabitIntent": "Fail habit",
+      "stoope.Grit.FindHabitsIntent": "Find habits",
+      "stoope.Grit.GetHabitActionIntent": "Get habit action",
+      "stoope.Grit.GetHabitHistoryIntent": "Get habit history",
+      "stoope.Grit.GetHabitProgressIntent": "Get habit progress",
+      "stoope.Grit.IncrementHabitIntent": "Increment",
+      "stoope.Grit.SetValueHabitIntent": "Set Value",
+      "stoope.Grit.SkipHabitIntent": "Skip habit",
+      "stoope.Grit.StartTimerIntent": "Start timer",
+      "stoope.Grit.StopActiveTimeIntent": "Stop timers"
+    },
+    "Countdown": {
+        "com.vacation.countdown.app.GetCountdownInfo": "Get Countdown Status",
+        "com.vacation.countdown.app.NewCountdown": "New Countdown",
+        "com.vacation.countdown.app.ShowCountdowns": "Show Countdowns",
+        "com.vacation.countdown.app.CountdownEntity": "Find Countdowns"
+    },
+    "Claude": {
+        "com.anthropic.claude.ClaudeCameraCaptureIntent": "Analyze Photo",
+        "com.anthropic.claude.ClaudeAppIntentsExtension": "Ask Claude",
+        "com.anthropic.claude.OpenClaudeIntent": "Open Claude"
+    },
     "Broadcasts": {
       "com,highcaffeinecontent.radio.MRDSetSleepTimerIntent": "Set Sleep Timer (Broadcasts)",
       "com.highcaffeinecontent.radio.MRDCancelSleepTimerIntent": "Cancel Sleep Timer (Broadcasts)",
@@ -1923,6 +2076,19 @@
     "Do Habits": {
       "com.tbd.Done.TrackMyHabitsIntent": "Track my habits in Do Habits (Do Habits)"
     },
+    "Documents (by Readdle)": {
+      "com.readdle.ReaddleDocsIPad.DynamicActionSelectionIntent": "Dynamic Action Selection",
+      "com.readdle.ReaddleDocsIPad.ConnectToComputer": "File Transfer",
+      "com.readdle.ReaddleDocsIPad.OpenBrowser": "Open Browser",
+      "com.readdle.ReaddleDocsIPad.OpenFavorites": "Open Favorites",
+      "com.readdle.ReaddleDocsIPad.OpenInbox": "Open Inbox",
+      "com.readdle.ReaddleDocsIPad.OpenMyFiles": "Open My Files",
+      "com.readdle.ReaddleDocsIPad.OpenRecents": "Open Recents",
+      "com.readdle.ReaddleDocsIPad.PlayMusic": "Play Music",
+      "com.readdle.ReaddleDocsIPad.ScanDocument": "Scan Document",
+      "com.readdle.ReaddleDocsIPad.SearchFiles": "Search Files",
+      "com.readdle.ReaddleDocsIPad.TurnOnVPN": "Turn on VPN"
+    },
     "DoneIt": {
       "DesignTech-SIA.Doneit.AddCategoryIntent": "Add Category (DoneIt)",
       "DesignTech-SIA.Doneit.AddPriorityIntent": "Add Priority (DoneIt)",
@@ -2098,6 +2264,18 @@
       "microsoft.Office.Excel.CreateSpreadsheetIntent": "Create Workbook (Excel (Microsoft))",
       "microsoft.Office.Excel.OpenSpreadsheetIntent": "Open Workbook (Excel (Microsoft))",
       "microsoft.Office.Excel.UniversalSearchIntent": "Search in app (Excel (Microsoft))"
+    },
+    "Expedia": {
+      "com.expedia.booking.CheckInDetailsIntent": "Check-in guide",
+      "com.expedia.booking.OpenFlightsSearchFormIntent": "Find Flights",
+      "com.expedia.booking.OpenLodgingSearchFormIntent": "Find Hotels & Vacation Rentals",
+      "com.expedia.booking.OpenPackagesSearchFormIntent": "Find Packages",
+      "com.expedia.booking.OpenCarsSearchFormIntent": "Find Rental Cars",
+      "com.expedia.booking.OpenActivitiesSearchFormIntent": "Find Things to Do",
+      "com.expedia.booking.GetDirectionsIntent": "Get directions",
+      "com.expedia.booking.MessageHostIntent": "Message host",
+      "com.expedia.booking.GetAccessCodeIntent": "View access code",
+      "com.expedia.booking.OpenTripsIntent": "View My Trips"
     },
     "FITIV Pulse": {
       "com.eurekadesignsolutions.motiFIT.LaunchAppIntent": "FITIV Pulse (FITIV Pulse)",
@@ -2433,6 +2611,12 @@
     "Future": {
       "fit.future.Future.ActiveWorkoutIntent": "Next Exercise (Future)"
     },
+    "Gauth": {
+      "com.gauthmath.intelligence.GMCalculateIntent": "Calculate Intent",
+      "com.gauthmath.intelligence.GMCalculateEmptyIntent": "Empty Intent",
+      "com.gauthmath.intelligence.GMNewCalculateIntent": "New Calculate Intent",
+      "com.gauthmath.intelligence.GMNewCalculateEmptyIntent": "New Empty Intent"
+    },
     "GO": {
       "club.go-steps.app.ios.AppLaunchIntent": "Open GO (GO)",
       "club.go-steps.app.ios.DailyProgressIntent": "Steps (GO)",
@@ -2608,6 +2792,13 @@
       "ai.x.GrokApp.VoiceModeCloseIntent": "Close Voice Mode (Grok)",
       "ai.x.GrokApp.VoiceModeDeafenIntent": "Deafen Voice Mode (Grok)",
       "ai.x.GrokApp.VoiceModeMuteIntent": "Mute Voice Mode (Grok)"
+    },
+    "Happ": {
+      "su.ffg.happ.ConnectVPNIntent": "Connect TUNNEL",
+      "su.ffg.happ.DisconnectVPNIntent": "Disconnect TUNNEL",
+      "su.ffg.happ.PingServerIntent": "Ping",
+      "su.ffg.happ.RefreshIntent": "Refresh widget",
+      "su.ffg.happ.HappVPNWidgetIntent": "Toggle TUNNEL"
     },
     "HEY Email": {
       "com.hey.app.ios.SendFilesIntent": "Send Files (HEY Email)",
@@ -2915,6 +3106,9 @@
       "com.reinvented.KeepIt-iOS.KPTSetItemPropertiesIntent": "Set Properties on Item (Keep It)",
       "com.reinvented.KeepIt-iOS.KPTSetListPropertiesIntent": "Set Properties on List (Keep It)"
     },
+    "Kimi": {
+      "com.moonshot.kimichat.OpenAppActionIntent": "Open App"
+    },
     "Kindle": {
       "com.amazon.Lassen.BookOpenSiriDonationIntent": "Read Current (Kindle)",
       "com.amazon.Lassen.PlayCurrentIntent": "Play Current (Kindle)"
@@ -2925,6 +3119,9 @@
     },
     "Klang": {
       "io.unorderly.klang.SoundIntent": "Play Sound (Klang)"
+    },
+    "Klarna": {
+      "com.klarna.app.CardTapIntent": "Loyalty Cards (Interactive)"
     },
     "LIFX": {
       "lifx.lifx.LFXCleanCycleIntent": "Clean Cycle (LIFX)",
@@ -2950,6 +3147,9 @@
       "com.hamming.LaxtTime.RecordThingWithDateIntent": "Record Thing with Time (LaxtTime)",
       "com.hamming.LaxtTime.ThingSelectAppIntent": "Daily Check-In (LaxtTime)",
       "com.hamming.LaxtTime.WeeklyThingAppIntent": "Weekly Overview (LaxtTime)"
+    },
+    "LG ThinQ": {
+      "com.lgeha.nuts.QRScanIntentsIntent": "QR Scan"
     },
     "LibTerm": {
       "ch.marcela.ada.LibTerm.RunCommandIntent": "Run Command (LibTerm)"
@@ -3438,6 +3638,10 @@
       "com.mynetdiary.MyNetDiary.PerformMealRecognitionControlWidgetAction": "Open (MyNetDiary)",
       "com.mynetdiary.MyNetDiary.QuickCaloriesIntent": "Quick Calories (MyNetDiary)",
       "com.mynetdiary.MyNetDiary.StartFastingIntent": "Start Fasting (MyNetDiary)"
+    },
+    "MyScreen": {
+      "app.walpapers.ChargingAnimationIntent": "Charging Animation",
+      "app.walpapers.ChargingAnimationPseudoStandByIntent": "Standby"
     },
     "MySQL": {
       "net.filippomaguolo.MySQLMobile.RunScriptIntent": "Execute MySQL Script (MySQL)"
@@ -4068,6 +4272,13 @@
       "com.kevinreutter.Sagittarius.AddTaskToTodayIntent": "Add task (Planny)",
       "com.kevinreutter.Sagittarius.CrossTaskIntent": "Mark task as done (Planny)"
     },
+    "Planta": {
+      "com.stromming.Plants.ActionTypeEntity": "Find Task",
+      "com.stromming.Plants.OpenPlantIdentificationIntent": "Identify plant", 
+      "com.stromming.Plants.LegacyOpenPlantIdentificationWidgetIntent": "OpenPlantIdentificationIntent",
+      "com.stromming.Plants.OpenPlantIdentificationWidgetIntent": "OpenPlantIdentificationIntent",
+      "com.stromming.Plants.TodayActionsIntent": "Today tasks"
+    },
     "Playlisty for Apple Music": {
       "com.obdura.playlistimport.AllImportsFinishedIntent": "Check imports have finished (Playlisty for Apple Music)",
       "com.obdura.playlistimport.MakePlaylistFromURLIntent": "Import Playlist (Playlisty for Apple Music)"
@@ -4121,6 +4332,11 @@
     "Productive": {
       "com.beHappy.Productive.AddAppIntent": "Habit add (Productive)",
       "com.beHappy.Productive.DoneAppIntent": "Habit done (Productive)"
+    },
+    "Proton VPN": {
+      "ch.protonmail.vpn.ConnectToVPNIntent": "Connect to VPN",
+      "ch.protonmail.vpn.DisconnectFromVPNIntent": "Disconnect from VPN",
+      "ch.protonmail.vpn.LoginIntent": "Login"
     },
     "ProtonMail": {
       "ch.protonmail.WipeMainKeyIntent": "Wipe Local Data (ProtonMail)"
@@ -4233,6 +4449,11 @@
       "com.albertomoral.Readit.ArticleInformationIntent": "Save Article from Link (Readit)",
       "com.albertomoral.Readit.CreateArticlesFromURLIntent": "Save list of Articles from Link (Readit)",
       "com.albertomoral.Readit.GetArticlesFilteredInformationIntent": "Find Articles (Readit)"
+    },
+    "Rebel Girls": {
+      "me.timbuktu.rebelgirls.PlayAudioIntent": "Play a story",
+      "me.timbuktu.rebelgirls.PlayFavoriteIntent": "Play My Favorites",
+      "me.timbuktu.rebelgirls.SetTimerIntent": "Set Timer"
     },
     "Receiptly": {
     "com.karmaacademy.com.ReceiptsCo.CreateExpenseIntent": "Create Expense from Wallet Transaction (Receiptly)",
@@ -4446,6 +4667,10 @@
     "SheetBox": {
       "com.haterapps.SheetBox.ReadAppleNumbersShortcutIntent": "Read from Numbers (SheetBox)",
       "com.haterapps.SheetBox.ReadExcelShortcutIntent": "Read from Excel (SheetBox)"
+    },
+    "SHEIN": {
+      "zzkko.com.ZZKKO.AnAppIntent": "An AppIntent",
+      "zzkko.com.ZZKKO.SIPromotionAppIntent": "SIPromotion AppIntent"
     },
     "Shelf": {
       "au.com.michaeltigas.Shelf.CreateTextShelfAppIntent": "Create a text shelf (Shelf)",
@@ -4853,6 +5078,9 @@
       "com.yusufkildan.habitTrackerApp.DynamicHabitSelectionIntent": "Dynamic Habit Selection (Streaks)",
       "com.yusufkildan.habitTrackerApp.HabitComplationIntent": "Complete/Uncomplete habit (Streaks)"
     },
+    "Streisand": {
+      "com.effect.streisand.TunnelIntent": "Toggle Tunnel"
+    },
     "Strength+ (Peloton)": {
       "com.Peloton.Draper.CompleteMovementIntent": "Complete movement intent (Strength+ (Peloton))",
       "com.Peloton.Draper.CompleteRestIntent": "Complete rest intent (Strength+ (Peloton))",
@@ -4998,6 +5226,13 @@
       "app.surfed.app.SwitchProfileFocusFilter": "Set Surfed Focus Filter (Surfed)",
       "app.surfed.app.SwitchProfileIntent": "Switch Space (Surfed)"
     },
+    "Surfshark": {
+      "com.surfshark.vpnclient.ios.WidgetSetConnectionValueIntent": "Pause VPN",
+      "com.surfshark.vpnclient.ios.DisconnectionIntent": "Change connection status",
+      "com.surfshark.vpnclient.ios.PauseIntent": "Disconnect VPN",
+      "com.surfshark.vpnclient.ios.QuickConnectIntent": "Quick Connect VPN",
+      "com.surfshark.vpnclient.ios.ResumeConnectionIntent": "Resume VPN"
+    },
     "Surge": {
       "com.nssurge.inc.surge-ios.ChangeGroupSelectionIntent": "Change Group Selection (Surge)",
       "com.nssurge.inc.surge-ios.DisableModuleIntent": "Disable Module (Surge)",
@@ -5040,6 +5275,9 @@
       "com.Mangolytics.Swing.OpenRecordTab": "Record a Session (SwingVision)",
       "com.Mangolytics.Swing.OpenRewardsTab": "View Rewards (SwingVision)"
     },
+    "swipewipe": {
+      "com.aoklab.fewerphotos.CategoryAppIntent": "CategoryAppIntent"
+    },
     "T-Life": {
       "com.tmobile.tuesdays.BillAmountIntent": "Get your bill (T-Life)",
       "com.tmobile.tuesdays.BillIntent": "View Bill (T-Life)",
@@ -5063,6 +5301,23 @@
     },
     "TDay Widget": {
       "com.touchberry.homewidget.HomeWidgetExtensionIntent": "Home Widget Extension (TDay Widget)"
+    },
+    "Thumbtack": {
+      "com.thumbtack.bowtie.FindElectricianIntent": "Find electricians",
+      "com.thumbtack.bowtie.FindHandyManIntent": "Find handyman",
+      "com.thumbtack.bowtie.SearchIntent": "Find home professionals",
+      "com.thumbtack.bowtie.FindHouseCleaningIntent": "Find house cleaners",
+      "com.thumbtack.bowtie.FindInteriorPainterIntent": "Find interior painters",
+      "com.thumbtack.bowtie.FindJunkRemovalIntent": "Find junk removal professionals",
+      "com.thumbtack.bowtie.FindLandscaperIntent": "Find landscapers",
+      "com.thumbtack.bowtie.FindMoverIntent": "Find movers",
+      "com.thumbtack.bowtie.FindPlumberIntent": "Find plumbers"
+    },
+    "Toyota": {
+      "com.toyota.OneApp.RemoteLockCarIntent": "Remote Lock Vehicle",
+      "com.toyota.OneApp.RemoteStartCarIntent": "Remote Start Vehicle",
+      "com.toyota.OneApp.RemoteStopCarIntent": "Remote Stop Vehicle",
+      "com.toyota.OneApp.RemoteUnLockCarIntent": "Remote UnLock Vehicle"
     },
     "TV Time / Television Time": {
       "com.litteral.TVShows.CountOfUnwatchedEpisodesIntent": "Get the number of episodes to watch for a series (TV Time / Television Time)",
@@ -5674,6 +5929,20 @@
     "Venmo": {
       "kortina.labs.Venmo": "Send/Request Payment (Venmo)"
     },
+    "VeSync": {
+      "com.etekcity.vesyncPlatform.DiscoverDevicePowerSwitching": "Switch Device Power Status"
+    },
+    "vpnify": {
+      "com.free.vpn.hotspot.secure.vpnify.ConnectIntent": "Connect",
+      "com.free.vpn.hotspot.secure.vpnify.DisconnectIntent": "Disconnect"
+    },
+    "Vocabulary": {
+      "com.MonkeyTaps.Vocabulary.ToggleLikeIntent": "Like a quote",
+      "com.MonkeyTaps.Vocabulary.QuoteNavigationIntent": "Navigate to quote",
+      "com.MonkeyTaps.Vocabulary.QuotesWidgetIntent": "Quotes Widget",
+      "com.MonkeyTaps.Vocabulary.SelectQuizWordWidgetIntent": "Select Quiz Word",
+      "com.MonkeyTaps.Vocabulary.EndQuizWidgetIntent": "Select Quiz Word"
+    },
     "Voicenotes": {
       "app.voicenotes.AskAIIntent": "Ask AI (Voicenotes)",
       "app.voicenotes.CancelRecordingIntent": "Cancel recording (Voicenotes)",
@@ -5831,6 +6100,9 @@
     "Where To?": {
       "com.futuretap.whereto-ng.W2FindCategoryIntent": "Search Category (Where To?)"
     },
+    "Whop": {
+      "com.whop.whopapp.RefreshWidgetIntent": "Refresh widgets"
+    },
     "Widget Web": {
       "app.vitalek.widgetapp.web.PerformWidgetActionIntent": "Execute WidgetWeb Action (Widget Web)",
       "app.vitalek.widgetapp.web.WidgetActionSetDarkModeShortcutsIntent": "Set Dark Mode for Widget (Widget Web)",
@@ -5850,6 +6122,11 @@
       "com.woodsign.Widgy.WidgyReloadIntent2": "Widgy Reload + Open Widgy (Widgy)",
       "com.woodsign.Widgy.WidgyTransparencyIntent": "Widgy Transparency (Widgy)",
       "com.woodsign.Widgy.WidgyTransparencyIntent2": "Widgy Transparency + Open Widgy (Widgy)"
+    },
+    "Windscribe": {
+      "com.windscribe.ShowLocationIntent": "Connection State",
+      "com.windscribe.Disconnect": "Disable Windscribe VPN",
+      "com.windscribe.Connect": "Enable Windscribe VPN"
     },
     "Word (Microsoft)": {
       "com.microsoft.Office.Word.CreateDocumentIntent": "Create Document (Word (Microsoft))",
