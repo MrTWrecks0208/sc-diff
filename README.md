@@ -1,5 +1,5 @@
 
-<img src="https://i.postimg.cc/FzSHQ21b/sc-Diff-2Landscape).png" style="width: 80%; height: auto;text-align: center;">
+<img src="https://i.postimg.cc/SRwvMvnn/sc-Diff-Landscape.png" style="width: 80%; height: auto;text-align: center;">
 
 #### sc diff is the <strong>first</strong> shortcut to replicate the <code>git diff</code> function in/for Apple Shortcuts to display changes between two versions of a shortcut.
 
