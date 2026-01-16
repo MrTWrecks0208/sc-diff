@@ -239,6 +239,27 @@
         "is.workflow.actions.getrichtextfromhtml": "Get Rich Text from HTML",
         "is.workflow.actions.getrichtextfrommarkdown": "Get Rich Text from Markdown"
     },
+    "Web": {
+        "is.workflow.actions.searchweb": "Search Web",
+        "is.workflow.actions.openurl": "Open URLs",
+        "is.workflow.actions.giphy": "Find Giphy GIFs",
+        "is.workflow.actions.showwebpage": "Show Web View",
+        "is.workflow.actions.readinglist": "Add to Reading List",
+        "is.workflow.actions.rss": "Get Items from RSS Feed",
+        "is.workflow.actions.rss.extract": "Get RSS Feeds from Page",
+        "is.workflow.actions.filter.articles": "Filter Articles",
+        "is.workflow.actions.properties.article": "Get Details of Article",
+        "is.workflow.actions.getarticle": "Get Article using Safari Reader",
+        "is.workflow.actions.url": "URL",
+        "is.workflow.actions.detect.link": "Get URLs from Input",
+        "is.workflow.actions.url.expand": "Expand URL",
+        "is.workflow.actions.geturlcomponent": "Get Component of URL",
+        "is.workflow.actions.downloadurl": "Get Contents of URL",
+        "is.workflow.actions.url.getheaders": "Get Headers of URL",
+        "is.workflow.actions.getwebpagecontents": "Get Contents of Web Page",
+        "is.workflow.actions.properties.safariwebpage": "Get Details of Safari Web Page",
+        "is.workflow.actions.runjavascriptonwebpage": "Run JavaScript on Web Page"
+    },
     "Other Actions": {
         "Opener.show-options": "Open URL in Opener",
         "overcast.add": "Add to Overcast",
@@ -261,7 +282,6 @@
         "evernote.getlink": "Get Note Link (Evernote)",
         "Tally2.updatetally": "Update Tally (Tally)",
         "AmazonLinker.convert": "Convert URL with Associate",
-        "giphy": "Search Giphy",
         "evernote.delete": "Delete Notes (Evernote)",
         "pinboard.get": "Get Pinboard Bookmarks",
         "instapaper.add": "Add to Instapaper",
@@ -969,6 +989,9 @@
     "Beeminder": {
       "com.beeminder.beeminder.AddDataIntent": "Add Data (Beeminder)"
     },
+    "Beside": {
+      "com.hearthands.TheMessagingApp.StopRecordingIntent": "Stop recording (Beside)"
+    },
     "Binaural": {
       "com.giorgiocalderolla.binaural.PauseIntent": "Pause (Binaural)",
       "com.giorgiocalderolla.binaural.PlayIntent": "Play (Binaural)",
@@ -1206,39 +1229,39 @@
       "ch.publisheria.bring.BringRecipeAppIntent": "Save recipe (Bring!)"
     },
     "ChatBox AI": {
-      "genius.chat.SuperChatEngagementDeeplinkAppIntent": "AI Assistant",
-      "genius.chat.Text2ImageEngagementDeeplinkAppIntent": "Image Generator",
-      "genius.chat.Voice2VoiceEngagementDeeplinkAppIntent": "Voice Chat"
+      "genius.chat.SuperChatEngagementDeeplinkAppIntent": "AI Assistant (ChatBox AI)",
+      "genius.chat.Text2ImageEngagementDeeplinkAppIntent": "Image Generator (ChatBox AI)",
+      "genius.chat.Voice2VoiceEngagementDeeplinkAppIntent": "Voice Chat (ChatBox AI)"
     },
     "ChatOn AI": {
-      "com.aiby.chat.OpenChatIntent": "Open a new chat"
+      "com.aiby.chat.OpenChatIntent": "Open a new chat (ChatOn AI)"
     },
     "Grit": {
-      "stoope.Grit.AddNoteHabitIntent": "Add note",
-      "stoope.Grit.AddProgressHabitIntent": "Add Value",
-      "stoope.Grit.CompleteHabitIntent": "Complete",
-      "stoope.Grit.CreateHabitIntent": "Create new habit",
-      "stoope.Grit.FailHabitIntent": "Fail habit",
-      "stoope.Grit.FindHabitsIntent": "Find habits",
-      "stoope.Grit.GetHabitActionIntent": "Get habit action",
-      "stoope.Grit.GetHabitHistoryIntent": "Get habit history",
-      "stoope.Grit.GetHabitProgressIntent": "Get habit progress",
-      "stoope.Grit.IncrementHabitIntent": "Increment",
-      "stoope.Grit.SetValueHabitIntent": "Set Value",
-      "stoope.Grit.SkipHabitIntent": "Skip habit",
-      "stoope.Grit.StartTimerIntent": "Start timer",
-      "stoope.Grit.StopActiveTimeIntent": "Stop timers"
+      "stoope.Grit.AddNoteHabitIntent": "Add note (Grit)",
+      "stoope.Grit.AddProgressHabitIntent": "Add Value (Grit)",
+      "stoope.Grit.CompleteHabitIntent": "Complete (Grit)",
+      "stoope.Grit.CreateHabitIntent": "Create new habit (Grit)",
+      "stoope.Grit.FailHabitIntent": "Fail habit (Grit)",
+      "stoope.Grit.FindHabitsIntent": "Find habits (Grit)",
+      "stoope.Grit.GetHabitActionIntent": "Get habit action (Grit)",
+      "stoope.Grit.GetHabitHistoryIntent": "Get habit history (Grit)",
+      "stoope.Grit.GetHabitProgressIntent": "Get habit progress (Grit)",
+      "stoope.Grit.IncrementHabitIntent": "Increment (Grit)",
+      "stoope.Grit.SetValueHabitIntent": "Set Value (Grit)",
+      "stoope.Grit.SkipHabitIntent": "Skip habit (Grit)",
+      "stoope.Grit.StartTimerIntent": "Start timer (Grit)",
+      "stoope.Grit.StopActiveTimeIntent": "Stop timers (Grit)"
     },
     "Countdown": {
-        "com.vacation.countdown.app.GetCountdownInfo": "Get Countdown Status",
-        "com.vacation.countdown.app.NewCountdown": "New Countdown",
-        "com.vacation.countdown.app.ShowCountdowns": "Show Countdowns",
-        "com.vacation.countdown.app.CountdownEntity": "Find Countdowns"
+        "com.vacation.countdown.app.GetCountdownInfo": "Get Countdown Status (Countdown)",
+        "com.vacation.countdown.app.NewCountdown": "New Countdown (Countdown)",
+        "com.vacation.countdown.app.ShowCountdowns": "Show Countdowns (Countdown)",
+        "com.vacation.countdown.app.CountdownEntity": "Find Countdowns (Countdown)"
     },
     "Claude": {
-        "com.anthropic.claude.ClaudeCameraCaptureIntent": "Analyze Photo",
-        "com.anthropic.claude.ClaudeAppIntentsExtension": "Ask Claude",
-        "com.anthropic.claude.OpenClaudeIntent": "Open Claude"
+        "com.anthropic.claude.ClaudeCameraCaptureIntent": "Analyze Photo (Claude)",
+        "com.anthropic.claude.ClaudeAppIntentsExtension": "Ask Claude (Claude)",
+        "com.anthropic.claude.OpenClaudeIntent": "Open Claude (Claude)"
     },
     "Broadcasts": {
       "com,highcaffeinecontent.radio.MRDSetSleepTimerIntent": "Set Sleep Timer (Broadcasts)",
@@ -1921,12 +1944,23 @@
       "org.cryptomator.ios.OpenVaultIntent": "Open Vault (Cryptomator)",
       "org.cryptomator.ios.SaveFileIntent": "Save File (Cryptomator)"
     },
+    "Cue": {
+      "ai.44px.voices.EndCurrentRecording": "End & Create Summary (Cue)",
+      "ai.44px.voices.ImportAudioIntent": "Import Audio (Cue)",
+      "ai.44px.voices.StartNewRecording": "New Recording (Cue)",
+      "ai.44px.voices.PauseCurrentRecording": "Pause Recording (Cue)",
+      "ai.44px.voices.ResumeCurrentRecording": "Resume Recording (Cue)",
+      "ai.44px.voices.ViewRecording": "View Finished Recording (Cue)"
+    },
     "Cuto": {
       "me.sspai.Cuto.CheckShortcutCompatibility": "Check Shortcut Compatibility (Cuto)",
       "me.sspai.Cuto.GetRandomWallpaperIntent": "Get Random Wallpaper (Cuto)",
       "me.sspai.Cuto.GetTodayWallpaperIntent": "Get Today Wallpaper (Cuto)",
       "me.sspai.Cuto.GetWallpaper": "Get Wallpaper (Cuto)",
       "me.sspai.Cuto.SetWallpaperOpenApplicationIntent": "Set Wallpaper (Cuto)"
+    },
+    "Dayforce": {
+      "com.dayforce.Dayforce.OpenDestinationIntent": "Open (Dayforce)"
     },
     "DB Navigator": {
       "com.deutschebahn.navigator.Abfahrten": "Departures (DB Navigator)",
@@ -2077,17 +2111,17 @@
       "com.tbd.Done.TrackMyHabitsIntent": "Track my habits in Do Habits (Do Habits)"
     },
     "Documents (by Readdle)": {
-      "com.readdle.ReaddleDocsIPad.DynamicActionSelectionIntent": "Dynamic Action Selection",
-      "com.readdle.ReaddleDocsIPad.ConnectToComputer": "File Transfer",
-      "com.readdle.ReaddleDocsIPad.OpenBrowser": "Open Browser",
-      "com.readdle.ReaddleDocsIPad.OpenFavorites": "Open Favorites",
-      "com.readdle.ReaddleDocsIPad.OpenInbox": "Open Inbox",
-      "com.readdle.ReaddleDocsIPad.OpenMyFiles": "Open My Files",
-      "com.readdle.ReaddleDocsIPad.OpenRecents": "Open Recents",
-      "com.readdle.ReaddleDocsIPad.PlayMusic": "Play Music",
-      "com.readdle.ReaddleDocsIPad.ScanDocument": "Scan Document",
-      "com.readdle.ReaddleDocsIPad.SearchFiles": "Search Files",
-      "com.readdle.ReaddleDocsIPad.TurnOnVPN": "Turn on VPN"
+      "com.readdle.ReaddleDocsIPad.DynamicActionSelectionIntent": "Dynamic Action Selection (Documents)",
+      "com.readdle.ReaddleDocsIPad.ConnectToComputer": "File Transfer (Documents)",
+      "com.readdle.ReaddleDocsIPad.OpenBrowser": "Open Browser (Documents)",
+      "com.readdle.ReaddleDocsIPad.OpenFavorites": "Open Favorites (Documents)",
+      "com.readdle.ReaddleDocsIPad.OpenInbox": "Open Inbox (Documents)",
+      "com.readdle.ReaddleDocsIPad.OpenMyFiles": "Open My Files (Documents)",
+      "com.readdle.ReaddleDocsIPad.OpenRecents": "Open Recents (Documents)",
+      "com.readdle.ReaddleDocsIPad.PlayMusic": "Play Music (Documents)",
+      "com.readdle.ReaddleDocsIPad.ScanDocument": "Scan Document (Documents)",
+      "com.readdle.ReaddleDocsIPad.SearchFiles": "Search Files (Documents)",
+      "com.readdle.ReaddleDocsIPad.TurnOnVPN": "Turn on VPN (Documents)"
     },
     "DoneIt": {
       "DesignTech-SIA.Doneit.AddCategoryIntent": "Add Category (DoneIt)",
@@ -2266,16 +2300,16 @@
       "microsoft.Office.Excel.UniversalSearchIntent": "Search in app (Excel (Microsoft))"
     },
     "Expedia": {
-      "com.expedia.booking.CheckInDetailsIntent": "Check-in guide",
-      "com.expedia.booking.OpenFlightsSearchFormIntent": "Find Flights",
-      "com.expedia.booking.OpenLodgingSearchFormIntent": "Find Hotels & Vacation Rentals",
-      "com.expedia.booking.OpenPackagesSearchFormIntent": "Find Packages",
-      "com.expedia.booking.OpenCarsSearchFormIntent": "Find Rental Cars",
-      "com.expedia.booking.OpenActivitiesSearchFormIntent": "Find Things to Do",
-      "com.expedia.booking.GetDirectionsIntent": "Get directions",
-      "com.expedia.booking.MessageHostIntent": "Message host",
-      "com.expedia.booking.GetAccessCodeIntent": "View access code",
-      "com.expedia.booking.OpenTripsIntent": "View My Trips"
+      "com.expedia.booking.CheckInDetailsIntent": "Check-in guide (Expedia)",
+      "com.expedia.booking.OpenFlightsSearchFormIntent": "Find Flights (Expedia)",
+      "com.expedia.booking.OpenLodgingSearchFormIntent": "Find Hotels & Vacation Rentals (Expedia)",
+      "com.expedia.booking.OpenPackagesSearchFormIntent": "Find Packages (Expedia)",
+      "com.expedia.booking.OpenCarsSearchFormIntent": "Find Rental Cars (Expedia)",
+      "com.expedia.booking.OpenActivitiesSearchFormIntent": "Find Things to Do (Expedia)",
+      "com.expedia.booking.GetDirectionsIntent": "Get directions (Expedia)",
+      "com.expedia.booking.MessageHostIntent": "Message host (Expedia)",
+      "com.expedia.booking.GetAccessCodeIntent": "View access code (Expedia)",
+      "com.expedia.booking.OpenTripsIntent": "View My Trips (Expedia)"
     },
     "FITIV Pulse": {
       "com.eurekadesignsolutions.motiFIT.LaunchAppIntent": "FITIV Pulse (FITIV Pulse)",
@@ -2612,10 +2646,10 @@
       "fit.future.Future.ActiveWorkoutIntent": "Next Exercise (Future)"
     },
     "Gauth": {
-      "com.gauthmath.intelligence.GMCalculateIntent": "Calculate Intent",
-      "com.gauthmath.intelligence.GMCalculateEmptyIntent": "Empty Intent",
-      "com.gauthmath.intelligence.GMNewCalculateIntent": "New Calculate Intent",
-      "com.gauthmath.intelligence.GMNewCalculateEmptyIntent": "New Empty Intent"
+      "com.gauthmath.intelligence.GMCalculateIntent": "Calculate Intent (Gauth)",
+      "com.gauthmath.intelligence.GMCalculateEmptyIntent": "Empty Intent (Gauth)",
+      "com.gauthmath.intelligence.GMNewCalculateIntent": "New Calculate Intent (Gauth)",
+      "com.gauthmath.intelligence.GMNewCalculateEmptyIntent": "New Empty Intent (Gauth)"
     },
     "GO": {
       "club.go-steps.app.ios.AppLaunchIntent": "Open GO (GO)",
@@ -2794,11 +2828,11 @@
       "ai.x.GrokApp.VoiceModeMuteIntent": "Mute Voice Mode (Grok)"
     },
     "Happ": {
-      "su.ffg.happ.ConnectVPNIntent": "Connect TUNNEL",
-      "su.ffg.happ.DisconnectVPNIntent": "Disconnect TUNNEL",
-      "su.ffg.happ.PingServerIntent": "Ping",
-      "su.ffg.happ.RefreshIntent": "Refresh widget",
-      "su.ffg.happ.HappVPNWidgetIntent": "Toggle TUNNEL"
+      "su.ffg.happ.ConnectVPNIntent": "Connect TUNNEL (Happ)",
+      "su.ffg.happ.DisconnectVPNIntent": "Disconnect TUNNEL (Happ)",
+      "su.ffg.happ.PingServerIntent": "Ping (Happ)",
+      "su.ffg.happ.RefreshIntent": "Refresh widget (Happ)",
+      "su.ffg.happ.HappVPNWidgetIntent": "Toggle TUNNEL (Happ)"
     },
     "HEY Email": {
       "com.hey.app.ios.SendFilesIntent": "Send Files (HEY Email)",
@@ -2847,6 +2881,18 @@
       "co.vuvo.habitify.RemoveLogIntent": "Remove Logs (Habitify)",
       "co.vuvo.habitify.StartTimerIntent": "Start Timer (Habitify)",
       "co.vuvo.habitify.ViewJournalIntent": "View Journal (Habitify)"
+    },
+    "Habits (formerly 'Habit Tracker')": {
+      "app.steppenbeck.HabitTracker.NewHabitAppIntent": "Create a New Habit (Habits)",
+      "app.steppenbeck.HabitTracker.HabitEntity": "Find Habits (Habits)",
+      "app.steppenbeck.HabitTracker.HabitTitleAppIntent": "Change a Habit Title (Habits)",
+      "app.steppenbeck.HabitTracker.DeleteHabitEntryAppIntent": "Delete Habit Entries (Habits)",
+      "app.steppenbeck.HabitTracker.HabitEntryCounterAppIntent": "Number of Entries in a Habit (Habits)",
+      "app.steppenbeck.HabitTracker.MultiHabitEntryCounterAppIntent": "Number of Entries in Multiple Habits (Habits)",
+      "app.steppenbeck.HabitTracker.HabitEntryCounterForTodayAppIntent": "Number of Entries Logged in a Habit Today (Habits)",
+      "app.steppenbeck.HabitTracker.HabitEntryAppIntent2": "Add a Habit Entry (Habits)",
+      "app.steppenbeck.HabitTracker.MissingHabitEntryAppIntent": "Add a Missing Habit Entry (Habits)",
+      "app.steppenbeck.HabitTracker.MultiHabitEntryAppIntent": "Add Entries to Multiple Habits (Habits)"
     },
     "Habits": {
       "com.dreamer.Habits.AddCustomValueIntent": "Add Custom Habit Progress (Habits)",
@@ -3107,7 +3153,7 @@
       "com.reinvented.KeepIt-iOS.KPTSetListPropertiesIntent": "Set Properties on List (Keep It)"
     },
     "Kimi": {
-      "com.moonshot.kimichat.OpenAppActionIntent": "Open App"
+      "com.moonshot.kimichat.OpenAppActionIntent": "Open App (Kimi)"
     },
     "Kindle": {
       "com.amazon.Lassen.BookOpenSiriDonationIntent": "Read Current (Kindle)",
@@ -3149,7 +3195,7 @@
       "com.hamming.LaxtTime.WeeklyThingAppIntent": "Weekly Overview (LaxtTime)"
     },
     "LG ThinQ": {
-      "com.lgeha.nuts.QRScanIntentsIntent": "QR Scan"
+      "com.lgeha.nuts.QRScanIntentsIntent": "QR Scan (LG ThinQ)"
     },
     "LibTerm": {
       "ch.marcela.ada.LibTerm.RunCommandIntent": "Run Command (LibTerm)"
@@ -3466,8 +3512,11 @@
     "Metronome": {
       "xiaoyixiang.prometronome.PM4PlayStopIntent": "Pro Metronome (Metronome)"
     },
+    "Mighty Cleaner": {
+      "com.newideas.ucleanerplus.ChargingIntent": "Play Charging Animation"
+    },
     "MileIQ": {
-        "com.mobiledatalabs.goiq.StopDriveIntent": "Stop Drive (MileIQ)"
+      "com.mobiledatalabs.goiq.StopDriveIntent": "Stop Drive (MileIQ)"
     },
     "MindNode": {
       "com.ideasoncanvas.mindnode.CreateDocumentIntent": "Create Document (MindNode)",
@@ -3568,6 +3617,13 @@
       "com.icyarrow.haloradio.ios.SearchIntent": "Search (Moon FM)",
       "com.icyarrow.haloradio.ios.TogglePlayPauseIntent": "Toggle Play/Pause (Moon FM)"
     },
+    "Moonlitt": {
+      "eu.moon.litt.OpenARIntent": "AR (Moonlitt)",
+      "eu.moon.litt.StartLiveActivityIntent": "Live Activity (Moonlitt)",
+      "eu.moon.litt.LunarCalendarIntent": "Lunar Calendar (Moonlitt)",
+      "eu.moon.litt.MoonInfoIntent": "Moon Info (Moonlitt)",
+      "eu.moon.litt.TriggerOneTimeOfferIntent": "Secret discount (Moonlitt)"
+    },
     "Motivation": {
       "com.MonkeyTaps.Motivation.LRQuoteIntent": "Get a quote (Motivation)",
       "com.MonkeyTaps.Motivation.OpenFortuneCookieWidgetIntent": "Open Fortune Cookie (Motivation)",
@@ -3640,8 +3696,8 @@
       "com.mynetdiary.MyNetDiary.StartFastingIntent": "Start Fasting (MyNetDiary)"
     },
     "MyScreen": {
-      "app.walpapers.ChargingAnimationIntent": "Charging Animation",
-      "app.walpapers.ChargingAnimationPseudoStandByIntent": "Standby"
+      "app.walpapers.ChargingAnimationIntent": "Charging Animation (MyScreen)",
+      "app.walpapers.ChargingAnimationPseudoStandByIntent": "Standby (MyScreen)"
     },
     "MySQL": {
       "net.filippomaguolo.MySQLMobile.RunScriptIntent": "Execute MySQL Script (MySQL)"
@@ -4273,11 +4329,11 @@
       "com.kevinreutter.Sagittarius.CrossTaskIntent": "Mark task as done (Planny)"
     },
     "Planta": {
-      "com.stromming.Plants.ActionTypeEntity": "Find Task",
-      "com.stromming.Plants.OpenPlantIdentificationIntent": "Identify plant", 
-      "com.stromming.Plants.LegacyOpenPlantIdentificationWidgetIntent": "OpenPlantIdentificationIntent",
-      "com.stromming.Plants.OpenPlantIdentificationWidgetIntent": "OpenPlantIdentificationIntent",
-      "com.stromming.Plants.TodayActionsIntent": "Today tasks"
+      "com.stromming.Plants.ActionTypeEntity": "Find Task (Planta)",
+      "com.stromming.Plants.OpenPlantIdentificationIntent": "Identify plant (Planta)", 
+      "com.stromming.Plants.LegacyOpenPlantIdentificationWidgetIntent": "OpenPlantIdentificationIntent (Planta)",
+      "com.stromming.Plants.OpenPlantIdentificationWidgetIntent": "OpenPlantIdentificationIntent (Planta)",
+      "com.stromming.Plants.TodayActionsIntent": "Today tasks (Planta)"
     },
     "Playlisty for Apple Music": {
       "com.obdura.playlistimport.AllImportsFinishedIntent": "Check imports have finished (Playlisty for Apple Music)",
@@ -4334,9 +4390,9 @@
       "com.beHappy.Productive.DoneAppIntent": "Habit done (Productive)"
     },
     "Proton VPN": {
-      "ch.protonmail.vpn.ConnectToVPNIntent": "Connect to VPN",
-      "ch.protonmail.vpn.DisconnectFromVPNIntent": "Disconnect from VPN",
-      "ch.protonmail.vpn.LoginIntent": "Login"
+      "ch.protonmail.vpn.ConnectToVPNIntent": "Connect to VPN (Proton VPN)",
+      "ch.protonmail.vpn.DisconnectFromVPNIntent": "Disconnect from VPN (Proton VPN)",
+      "ch.protonmail.vpn.LoginIntent": "Login (Proton VPN)"
     },
     "ProtonMail": {
       "ch.protonmail.WipeMainKeyIntent": "Wipe Local Data (ProtonMail)"
@@ -4451,9 +4507,9 @@
       "com.albertomoral.Readit.GetArticlesFilteredInformationIntent": "Find Articles (Readit)"
     },
     "Rebel Girls": {
-      "me.timbuktu.rebelgirls.PlayAudioIntent": "Play a story",
-      "me.timbuktu.rebelgirls.PlayFavoriteIntent": "Play My Favorites",
-      "me.timbuktu.rebelgirls.SetTimerIntent": "Set Timer"
+      "me.timbuktu.rebelgirls.PlayAudioIntent": "Play a story (Rebel Girls)",
+      "me.timbuktu.rebelgirls.PlayFavoriteIntent": "Play My Favorites (Rebel Girls)",
+      "me.timbuktu.rebelgirls.SetTimerIntent": "Set Timer (Rebel Girls)"
     },
     "Receiptly": {
     "com.karmaacademy.com.ReceiptsCo.CreateExpenseIntent": "Create Expense from Wallet Transaction (Receiptly)",
@@ -4542,7 +4598,7 @@
       "net.filippomaguolo.MSSQLServerMobile.RunScriptIntent": "Execute SQL Server Script (SQL Server Mobile)"
     },
     "Salesforce": {
-         "com.salesforce.chatter.OpenAgentforceAndSendMessage": "Ask Agentforce (Salesforce)",
+        "com.salesforce.chatter.OpenAgentforceAndSendMessage": "Ask Agentforce (Salesforce)",
         "com.salesforce.chatter.OpenAgentforce": "Open Agentforce (Salesforce)",
         "com.salesforce.chatter.OpenAgentforceNoKeyboard": "Open Agentforce No Keyboard (Salesforce)",
         "com.salesforce.chatter.OpenAgentforceTranscribing": "Talk to Agentforce (Salesforce)"
@@ -4669,8 +4725,8 @@
       "com.haterapps.SheetBox.ReadExcelShortcutIntent": "Read from Excel (SheetBox)"
     },
     "SHEIN": {
-      "zzkko.com.ZZKKO.AnAppIntent": "An AppIntent",
-      "zzkko.com.ZZKKO.SIPromotionAppIntent": "SIPromotion AppIntent"
+      "zzkko.com.ZZKKO.AnAppIntent": "An AppIntent (SHEIN)",
+      "zzkko.com.ZZKKO.SIPromotionAppIntent": "SIPromotion AppIntent (SHEIN)"
     },
     "Shelf": {
       "au.com.michaeltigas.Shelf.CreateTextShelfAppIntent": "Create a text shelf (Shelf)",
@@ -5069,7 +5125,7 @@
       "appsoftheday.stickynotes.UninAction": "Unpin note (Sticky Notes)"
     },
     "Sticky Notes (formerly 'PostIt')": {
-      "com.rands-app.postit.LaunchAppIntent": "StickyNote WidgetInteractionAppIntent (Sticky Notes (formerly 'PostIt'))"
+      "com.rands-app.postit.LaunchAppIntent": "StickyNote WidgetInteractionAppIntent (Sticky Notes)"
     },
     "StickyNote": {
       "com.tapuniverse.stickynote.WidgetInteractionAppIntent": "StickyNote App Open (StickyNote)"
@@ -5079,7 +5135,7 @@
       "com.yusufkildan.habitTrackerApp.HabitComplationIntent": "Complete/Uncomplete habit (Streaks)"
     },
     "Streisand": {
-      "com.effect.streisand.TunnelIntent": "Toggle Tunnel"
+      "com.effect.streisand.TunnelIntent": "Toggle Tunnel (Streisand)"
     },
     "Strength+ (Peloton)": {
       "com.Peloton.Draper.CompleteMovementIntent": "Complete movement intent (Strength+ (Peloton))",
@@ -5227,11 +5283,11 @@
       "app.surfed.app.SwitchProfileIntent": "Switch Space (Surfed)"
     },
     "Surfshark": {
-      "com.surfshark.vpnclient.ios.WidgetSetConnectionValueIntent": "Pause VPN",
-      "com.surfshark.vpnclient.ios.DisconnectionIntent": "Change connection status",
-      "com.surfshark.vpnclient.ios.PauseIntent": "Disconnect VPN",
-      "com.surfshark.vpnclient.ios.QuickConnectIntent": "Quick Connect VPN",
-      "com.surfshark.vpnclient.ios.ResumeConnectionIntent": "Resume VPN"
+      "com.surfshark.vpnclient.ios.WidgetSetConnectionValueIntent": "Pause VPN (Surfshark)",
+      "com.surfshark.vpnclient.ios.DisconnectionIntent": "Change connection status (Surfshark)",
+      "com.surfshark.vpnclient.ios.PauseIntent": "Disconnect VPN (Surfshark)",
+      "com.surfshark.vpnclient.ios.QuickConnectIntent": "Quick Connect VPN (Surfshark)",
+      "com.surfshark.vpnclient.ios.ResumeConnectionIntent": "Resume VPN (Surfshark)"
     },
     "Surge": {
       "com.nssurge.inc.surge-ios.ChangeGroupSelectionIntent": "Change Group Selection (Surge)",
@@ -5276,7 +5332,7 @@
       "com.Mangolytics.Swing.OpenRewardsTab": "View Rewards (SwingVision)"
     },
     "swipewipe": {
-      "com.aoklab.fewerphotos.CategoryAppIntent": "CategoryAppIntent"
+      "com.aoklab.fewerphotos.CategoryAppIntent": "CategoryAppIntent (swipewipe)"
     },
     "T-Life": {
       "com.tmobile.tuesdays.BillAmountIntent": "Get your bill (T-Life)",
@@ -5303,21 +5359,21 @@
       "com.touchberry.homewidget.HomeWidgetExtensionIntent": "Home Widget Extension (TDay Widget)"
     },
     "Thumbtack": {
-      "com.thumbtack.bowtie.FindElectricianIntent": "Find electricians",
-      "com.thumbtack.bowtie.FindHandyManIntent": "Find handyman",
-      "com.thumbtack.bowtie.SearchIntent": "Find home professionals",
-      "com.thumbtack.bowtie.FindHouseCleaningIntent": "Find house cleaners",
-      "com.thumbtack.bowtie.FindInteriorPainterIntent": "Find interior painters",
-      "com.thumbtack.bowtie.FindJunkRemovalIntent": "Find junk removal professionals",
-      "com.thumbtack.bowtie.FindLandscaperIntent": "Find landscapers",
-      "com.thumbtack.bowtie.FindMoverIntent": "Find movers",
-      "com.thumbtack.bowtie.FindPlumberIntent": "Find plumbers"
+      "com.thumbtack.bowtie.FindElectricianIntent": "Find electricians (Thumbtack)",
+      "com.thumbtack.bowtie.FindHandyManIntent": "Find handyman (Thumbtack)",
+      "com.thumbtack.bowtie.SearchIntent": "Find home professionals (Thumbtack)",
+      "com.thumbtack.bowtie.FindHouseCleaningIntent": "Find house cleaners (Thumbtack)",
+      "com.thumbtack.bowtie.FindInteriorPainterIntent": "Find interior painters (Thumbtack)",
+      "com.thumbtack.bowtie.FindJunkRemovalIntent": "Find junk removal professionals (Thumbtack)",
+      "com.thumbtack.bowtie.FindLandscaperIntent": "Find landscapers (Thumbtack)",
+      "com.thumbtack.bowtie.FindMoverIntent": "Find movers (Thumbtack)",
+      "com.thumbtack.bowtie.FindPlumberIntent": "Find plumbers (Thumbtack)"
     },
     "Toyota": {
-      "com.toyota.OneApp.RemoteLockCarIntent": "Remote Lock Vehicle",
-      "com.toyota.OneApp.RemoteStartCarIntent": "Remote Start Vehicle",
-      "com.toyota.OneApp.RemoteStopCarIntent": "Remote Stop Vehicle",
-      "com.toyota.OneApp.RemoteUnLockCarIntent": "Remote UnLock Vehicle"
+      "com.toyota.OneApp.RemoteLockCarIntent": "Remote Lock Vehicle (Toyota)",
+      "com.toyota.OneApp.RemoteStartCarIntent": "Remote Start Vehicle (Toyota)",
+      "com.toyota.OneApp.RemoteStopCarIntent": "Remote Stop Vehicle (Toyota)",
+      "com.toyota.OneApp.RemoteUnLockCarIntent": "Remote UnLock Vehicle (Toyota)"
     },
     "TV Time / Television Time": {
       "com.litteral.TVShows.CountOfUnwatchedEpisodesIntent": "Get the number of episodes to watch for a series (TV Time / Television Time)",
@@ -5431,6 +5487,10 @@
       "com.themekit.widgets.themes.ControlSwitchIntent": "SwitchTitle (ThemeKit)",
       "com.themekit.widgets.themes.ControlSwitchWidgetConfiguration": "choose item (ThemeKit)",
       "com.themekit.widgets.themes.MusicIntent": "MusicIntent (ThemeKit)"
+    },
+    "Thoughts": {
+      "de.henribredt.quotes.CreateIntent": "Create Inspiration (Thoughts)",
+      "de.henribredt.quotes.OpenAppWithCreateNewEntryViewIntent": "Create new Inspiration (Thoughts)"
     },
     "Ticci Tabs": {
       "com.onishry.TicciTabs.AddNewTab": "Add Tab (Ticci Tabs)",
@@ -5614,8 +5674,8 @@
     },
     "Tiny Invoice": {
       "com.btgs.turboinvoice.NewAppIntent": "New Invoice (Tiny Invoice)",
-       "com.btgs.turboinvoice.OpenAppIntent": "Recent Invoices (Tiny Invoice)",
-        "com.btgs.turboinvoice.StartTimerIntent": "Start a timer (Tiny Invoice)"
+      "com.btgs.turboinvoice.OpenAppIntent": "Recent Invoices (Tiny Invoice)",
+      "com.btgs.turboinvoice.StartTimerIntent": "Start a timer (Tiny Invoice)"
     },
     "Tiny Scanner": {
       "com.btgs.scannerhdlite.SNAppCaptureIntent": "QuickScan (Tiny Scanner)",
@@ -5930,18 +5990,18 @@
       "kortina.labs.Venmo": "Send/Request Payment (Venmo)"
     },
     "VeSync": {
-      "com.etekcity.vesyncPlatform.DiscoverDevicePowerSwitching": "Switch Device Power Status"
+      "com.etekcity.vesyncPlatform.DiscoverDevicePowerSwitching": "Switch Device Power Status (VeSync)"
     },
     "vpnify": {
-      "com.free.vpn.hotspot.secure.vpnify.ConnectIntent": "Connect",
-      "com.free.vpn.hotspot.secure.vpnify.DisconnectIntent": "Disconnect"
+      "com.free.vpn.hotspot.secure.vpnify.ConnectIntent": "Connect (vpnify)",
+      "com.free.vpn.hotspot.secure.vpnify.DisconnectIntent": "Disconnect (vpnify)"
     },
     "Vocabulary": {
-      "com.MonkeyTaps.Vocabulary.ToggleLikeIntent": "Like a quote",
-      "com.MonkeyTaps.Vocabulary.QuoteNavigationIntent": "Navigate to quote",
-      "com.MonkeyTaps.Vocabulary.QuotesWidgetIntent": "Quotes Widget",
-      "com.MonkeyTaps.Vocabulary.SelectQuizWordWidgetIntent": "Select Quiz Word",
-      "com.MonkeyTaps.Vocabulary.EndQuizWidgetIntent": "Select Quiz Word"
+      "com.MonkeyTaps.Vocabulary.ToggleLikeIntent": "Like a quote (Vocabulary)",
+      "com.MonkeyTaps.Vocabulary.QuoteNavigationIntent": "Navigate to quote (Vocabulary)",
+      "com.MonkeyTaps.Vocabulary.QuotesWidgetIntent": "Quotes Widget (Vocabulary)",
+      "com.MonkeyTaps.Vocabulary.SelectQuizWordWidgetIntent": "Select Quiz Word (Vocabulary)",
+      "com.MonkeyTaps.Vocabulary.EndQuizWidgetIntent": "Select Quiz Word (Vocabulary)"
     },
     "Voicenotes": {
       "app.voicenotes.AskAIIntent": "Ask AI (Voicenotes)",
@@ -5994,21 +6054,21 @@
       "com.vitalii.water.CurrentHydrationShortcutIntent": "Current Hydration (WaterLlama)",
       "com.vitalii.water.RemainingHydrationShortcutIntent": "Remaining Hydration (WaterLlama)"
     },
-    "Waterminder": {
-      "com.waterminder.waterminder.ExportDataIntent": "Export Data (Waterminder)",
-      "com.waterminder.waterminder.ExportPDFIntent": "Export PDF (Waterminder)",
-      "com.waterminder.waterminder.GetHydrationGoalIntent": "Get Hydration Goal (Waterminder)",
-      "com.waterminder.waterminder.GetHydrationSummaryIntent": "Get Hydration Summary (Waterminder)",
-      "com.waterminder.waterminder.LogCupIntent": "Log Cup (Waterminder)",
-      "com.waterminder.waterminder.LogCupNewIntent": "Log Cup(new) (Waterminder)",
-      "com.waterminder.waterminder.LogDrinkIntent": "Log Drink (Waterminder)",
-      "com.waterminder.waterminder.LogDrinkNewAppIntent": "Log Drink(new) (Waterminder)",
-      "com.waterminder.waterminder.MyChallengeProgressIntent": "My Challenge Progress (Waterminder)",
-      "com.waterminder.waterminder.ShowLastDrinkIntent": "Last logged drink (Waterminder)",
-      "com.waterminder.waterminder.ShowProgressIntent": "Current Hydration (Waterminder)",
-      "com.waterminder.waterminder.ShowProgressNewIntent": "Current Hydration(new) (Waterminder)",
-      "com.waterminder.waterminder.ShowRemainingWaterGoalIntent": "Show remaining hydration goal (Waterminder)",
-      "com.waterminder.waterminder.ShowRemainingWaterGoalNewIntent": "Show remaining hydration goal (new) (Waterminder)"
+    "WaterMinder": {
+      "com.waterminder.waterminder.ExportDataIntent": "Export Data (WaterMinder)",
+      "com.waterminder.waterminder.ExportPDFIntent": "Export PDF (WaterMinder)",
+      "com.waterminder.waterminder.GetHydrationGoalIntent": "Get Hydration Goal (WaterMinder)",
+      "com.waterminder.waterminder.GetHydrationSummaryIntent": "Get Hydration Summary (WaterMinder)",
+      "com.waterminder.waterminder.LogCupIntent": "Log Cup (WaterMinder)",
+      "com.waterminder.waterminder.LogCupNewIntent": "Log Cup(new) (WaterMinder)",
+      "com.waterminder.waterminder.LogDrinkIntent": "Log Drink (WaterMinder)",
+      "com.waterminder.waterminder.LogDrinkNewAppIntent": "Log Drink(new) (WaterMinder)",
+      "com.waterminder.waterminder.MyChallengeProgressIntent": "My Challenge Progress (WaterMinder)",
+      "com.waterminder.waterminder.ShowLastDrinkIntent": "Last logged drink (WaterMinder)",
+      "com.waterminder.waterminder.ShowProgressIntent": "Current Hydration (WaterMinder)",
+      "com.waterminder.waterminder.ShowProgressNewIntent": "Current Hydration(new) (WaterMinder)",
+      "com.waterminder.waterminder.ShowRemainingWaterGoalIntent": "Show remaining hydration goal (WaterMinder)",
+      "com.waterminder.waterminder.ShowRemainingWaterGoalNewIntent": "Show remaining hydration goal (new) (WaterMinder)"
     },
     "Waterspeed": {
       "TNT.Waterspeed.PauseIntent": "Pause Waterspeed (Waterspeed)",
@@ -6016,7 +6076,13 @@
       "TNT.Waterspeed.StartTrackingIntent": "Start Waterspeed (Waterspeed)",
       "TNT.Waterspeed.StopIntent": "Stop Waterspeed (Waterspeed)"
     },
-    "Watersports Tracker": {},
+    "Watersports Tracker": {
+      "eu.rozga.WhitewaterTracker.MyStartWorkoutIntentStandard": "Start workout (Watersports Tracker)",
+      "eu.rozga.WhitewaterTracker.RecordSessionIntent": "My Intent (Watersports Tracker)",
+      "eu.rozga.WhitewaterTracker.MyPauseWorkoutIntent": "Pause workout (Watersports Tracker)",
+      "eu.rozga.WhitewaterTracker.MyResumeWorkoutIntent": "Resume workout (Watersports Tracker)",
+      "eu.rozga.WhitewaterTracker.MyStartWorkoutIntent": "Start workout (Watersports Tracker)"
+    },
     "Watt": {
       "com.github.tnmendes.smart-house.BrightnessSetIntent": "Switch brightness level (Watt)",
       "com.github.tnmendes.smart-house.ColorSetIntent": "Set Bulb Color (Watt)",
@@ -6101,7 +6167,7 @@
       "com.futuretap.whereto-ng.W2FindCategoryIntent": "Search Category (Where To?)"
     },
     "Whop": {
-      "com.whop.whopapp.RefreshWidgetIntent": "Refresh widgets"
+      "com.whop.whopapp.RefreshWidgetIntent": "Refresh widgets (Whop)"
     },
     "Widget Web": {
       "app.vitalek.widgetapp.web.PerformWidgetActionIntent": "Execute WidgetWeb Action (Widget Web)",
@@ -6124,9 +6190,9 @@
       "com.woodsign.Widgy.WidgyTransparencyIntent2": "Widgy Transparency + Open Widgy (Widgy)"
     },
     "Windscribe": {
-      "com.windscribe.ShowLocationIntent": "Connection State",
-      "com.windscribe.Disconnect": "Disable Windscribe VPN",
-      "com.windscribe.Connect": "Enable Windscribe VPN"
+      "com.windscribe.ShowLocationIntent": "Connection State (Windscribe)",
+      "com.windscribe.Disconnect": "Disable Windscribe VPN (Windscribe)",
+      "com.windscribe.Connect": "Enable Windscribe VPN (Windscribe)"
     },
     "Word (Microsoft)": {
       "com.microsoft.Office.Word.CreateDocumentIntent": "Create Document (Word (Microsoft))",
@@ -6666,15 +6732,25 @@
       "setters.reminders": "Edit Reminder"
     },
     "Safari": {
-      "filter.articles": "Filter Articles",
-      "getarticle": "Get Article Using Safari Reader",
-      "openurl": "Open URL",
-      "properties.article": "Get Details of Article",
-      "properties.safariwebpage": "Get Details of Safari Web Page",
-      "readinglist": "Add to Reading List",
-      "runjavascriptonwebpage": "Run JavaScript on Web Page",
-      "searchweb": "Search Web",
-      "showwebpage": "Show Web Page"
+      "is.workflow.actions.searchweb": "Search Web",
+      "is.workflow.actions.openurl": "Open URLs",
+      "is.workflow.actions.giphy": "Find Giphy GIFs",
+      "is.workflow.actions.showwebpage": "Show Web View",
+      "is.workflow.actions.readinglist": "Add to Reading List",
+      "is.workflow.actions.rss": "Get Items from RSS Feed",
+      "is.workflow.actions.rss.extract": "Get RSS Feeds from Page",
+      "is.workflow.actions.filter.articles": "Filter Articles",
+      "is.workflow.actions.properties.article": "Get Details of Article",
+      "is.workflow.actions.getarticle": "Get Article using Safari Reader",
+      "is.workflow.actions.url": "URL",
+      "is.workflow.actions.detect.link": "Get URLs from Input",
+      "is.workflow.actions.url.expand": "Expand URL",
+      "is.workflow.actions.geturlcomponent": "Get Component of URL",
+      "is.workflow.actions.downloadurl": "Get Contents of URL",
+      "is.workflow.actions.url.getheaders": "Get Headers of URL",
+      "is.workflow.actions.getwebpagecontents": "Get Contents of Web Page",
+      "is.workflow.actions.properties.safariwebpage": "Get Details of Safari Web Page",
+      "is.workflow.actions.runjavascriptonwebpage": "Run JavaScript on Web Page"
     },
     "Siri Shortcuts": {
       "amazon.Amazon": "Amazon action (Action name cannot be retrieved*)",
