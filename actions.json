@@ -849,6 +849,17 @@
     "App in the Air": {
       "aita.app.SearchFlightsForBookingIntent": "Search flights for booking (App in the Air)"
     },
+    "Appediet": {
+      "net.appedietInformation.appediet.PEWidgetConfigurationWaterAddIntent": "Add Water (Appediet)",
+      "net.appedietInformation.appediet.PEShortcutAppChat": "AppeChat (Appediet)",
+      "net.appedietInformation.appediet.PEShortcutLogFood": "Log Food (Appediet)",
+      "net.appedietInformation.appediet.PEShortcutNutritionFacts": "Nutrition Facts (Appediet)",
+      "net.appedietInformation.appediet.PEShortcutRecipes": "Recipes (Appediet)",
+      "net.appedietInformation.appediet.PEWidgetConfigurationWaterReduceIntent": "Reduce Water (Appediet)",
+      "net.appedietInformation.appediet.PEShortcutScanBarcode": "Scan Barcode (Appediet)",
+      "net.appedietInformation.appediet.PEShortcutScanFood": "Scan Food (Appediet)",
+      "net.appedietInformation.appediet.PEShortcutWorkouts": "Workouts (Appediet)"
+    },
     "Aqara Home": {
       "com.lumiunited.pre.homekit.SceneActionIntent": "Scene Task (Aqara Home)",
       "com.lumiunited.pre.homekit.WidgetRefreshIntent": "Button Action (Aqara Home)",
@@ -1067,6 +1078,9 @@
       "com.cub-and-pup.Bluebird.ViewLogsIntent": "View Logs (Bluebird)",
       "com.cub-and-pup.Bluebird.ViewStatsIntent": "View Stats (Bluebird)"
     },
+    "BodyWave": {
+      "com.htytech.bodyflow.AddWaterIntent": "CountIntent (BodyWave)"
+    },
     "Book Tracker": {
       "com.simonemontalto.booktrack.AddAuthorIntent": "Create Author (Book Tracker)",
       "com.simonemontalto.booktrack.AddAuthorsToBookIntent": "Assign Authors to Books (Book Tracker)",
@@ -1228,6 +1242,9 @@
       "ch.publisheria.bring.BringOpenAppIntent": "Open Bring! (Bring!)",
       "ch.publisheria.bring.BringRecipeAppIntent": "Save recipe (Bring!)"
     },
+    "Calorie Counter": {
+      "com.municorn.CalorieCounter.WKWaterIntakeButtonIntent": "Intent for water (Calorie Counter)"
+    },
     "ChatBox AI": {
       "genius.chat.SuperChatEngagementDeeplinkAppIntent": "AI Assistant (ChatBox AI)",
       "genius.chat.Text2ImageEngagementDeeplinkAppIntent": "Image Generator (ChatBox AI)",
@@ -1235,6 +1252,16 @@
     },
     "ChatOn AI": {
       "com.aiby.chat.OpenChatIntent": "Open a new chat (ChatOn AI)"
+    },
+    "Cronometer": {
+      "CRONOMETER-GOLD.AddWater": "Add Water (Cronometer)",
+      "CRONOMETER-GOLD.RemoveWater": "Remove Water (Cronometer)",
+      "CRONOMETER-GOLD.ToggleCompareValuesIntent": "ToggleCompareValuesIntent (Cronometer)"
+    },
+    "Hatch Sleep": {
+      "com.hatchbaby.Nightlight.CheckTomorrowAlarmIntent": "Check Tomorrow Alarm (Hatch Sleep)",
+      "com.hatchbaby.Nightlight.DisableAlarmIntent": "Disable Alarm (Hatch Sleep)",
+      "com.hatchbaby.Nightlight.EnableAlarmIntent": "Enable Alarm (Hatch Sleep)"
     },
     "Grit": {
       "stoope.Grit.AddNoteHabitIntent": "Add note (Grit)",
@@ -2978,6 +3005,9 @@
       "io.robbie.HomeAssistant.UpdateSensorsIntent": "Update Sensors (Home Assistant)",
       "io.robbie.HomeAssistant.WidgetActionsIntent": "Actions (Home Assistant)"
     },
+    "HitMeal": {
+      "app.nutrition.WaterTrackerWidgetIntent": "Water Tracker (HitMeal)"
+    },
     "Home Widget": {
       "com.vision-apps.HomeKitWidget.RefreshIntent": "Refresh my Widgets (Home Widget)"
     },
@@ -3197,6 +3227,10 @@
     "LG ThinQ": {
       "com.lgeha.nuts.QRScanIntentsIntent": "QR Scan (LG ThinQ)"
     },
+    "Liftoff": {
+      "com.gymbros.app.Minus15RestIntent": "Minus 15 Seconds (Liftoff)",
+      "com.gymbros.app.Plus15RestIntent": "Plus 15 Seconds (Liftoff)"
+    },
     "LibTerm": {
       "ch.marcela.ada.LibTerm.RunCommandIntent": "Run Command (LibTerm)"
     },
@@ -3354,6 +3388,27 @@
       "com.lowes.mobile.consumer.iphone.lowes.ProductIntent": "Open Product (Lowe's)",
       "com.lowes.mobile.consumer.iphone.lowes.SearchIntent": "Open Search (Lowe's)",
       "com.lowes.mobile.consumer.iphone.lowes.StoreMapIntent": "Open Store Maps (Lowe's)"
+    },
+    "Lumenate": {
+      "com.LumenateGrowth.LumenateApp.SessionEntity": "Open Lumenate Session (Lumenate)",
+      "com.LumenateGrowth.LumenateApp.OpenSessionAppIntent": "Find Session (Lumenate)"
+    },
+    "MacroFactor": {
+      "com.sbs.diet.RemainingTodayAppIntent": "Nutrient Remaining (MacroFactor)",
+      "com.sbs.diet.SummaryRemainingTodayAppIntent": "Macros Remaining (MacroFactor)",
+      "com.sbs.diet.QuickAddBeerIntent": "Log Beer (MacroFactor)",
+      "com.sbs.diet.LogFoodsIntent": "Log Recent Food (MacroFactor)",
+      "com.sbs.diet.QuickAddWaterIntent": "Log Water (MacroFactor)",
+      "com.sbs.diet.LogWeightIntent": "Log Weight (MacroFactor)",
+      "com.sbs.diet.QuickAddFoodIntent": "Quick Add (MacroFactor)",
+      "com.sbs.diet.MakeLLMInstructionsIntent": "Add LLM Formatting Prompt (MacroFactor)",
+      "com.sbs.diet.HistoryItemAppEntity": "Find Recent Food (MacroFactor)",
+      "com.sbs.diet.QuickAddFoodJSONIntent": "Log by JSON (MacroFactor)",
+      "com.sbs.diet.SetServingCountIntent": "Set Serving Count (MacroFactor)",
+      "com.sbs.diet.SetServingVolumeIntent": "Set Serving Volume (MacroFactor)",
+      "com.sbs.diet.SetServingWeightIntent": "Set Serving Weight (MacroFactor)",
+      "com.sbs.diet.NavigationAppIntent": "Screen (MacroFactor)",
+      "com.sbs.diet.GetNutritionStateAppIntent": "Get Nutrition State (MacroFactor)"
     },
     "MD Clock": {
       "tech.miidii.MDClock.ClockAppearanceFocusFilter": "Set MD Clock Focus Filter (MD Clock)",
@@ -4557,6 +4612,11 @@
       "com.softissimo.ReversoContext.VocabularyAppIntent": "Vocabulary (Reverso Context)",
       "com.softissimo.ReversoContext.WriteAppIntent": "Write (Reverso Context)"
     },
+    "Rise Sleep": {
+      "com.risesci.nyx.ScheduleAlarmIntent": "Ensure Alarm Running (Rise Sleep)",
+      "com.risesci.nyx.RelaxationAudioControlWidgetIntent": "Play Soothing Sounds (Rise SLeep)",
+      "com.risesci.nyx.SleepDebtIntent": "What is my Sleep Debt? (Rise Sleep)"
+    },
     "Robokiller": {
       "co.robokiller.app.ScamDetectorAppIntent": "Identify scams from a screenshot (Robokiller)"
     },
@@ -4833,6 +4893,12 @@
       "fr.bodetpatrick.SHOUTcastRadios.ShowFavoritesIntent": "Count Favorite Stations (Shout Radios)",
       "fr.bodetpatrick.SHOUTcastRadios.StopStationIntent": "Pause/Stop (Shout Radios)"
     },
+    "ShutEye": {
+      "health.sleep.sounds.tracker.alarm.calm.LiveActivityAppIntent": "Live activity (ShutEye)",
+      "health.sleep.sounds.tracker.alarm.calm.TrackerAppIntent": "Open ShutEye (ShutEye)",
+      "health.sleep.sounds.tracker.alarm.calm.StartShutEyeIntent": "Start ShutEye (ShutEye)",
+      "health.sleep.sounds.tracker.alarm.calm.StartTrackerIntent": "Start Tracker (ShutEye)"
+    },
     "Signals": {
       "org.mcorey.HomeFlash.OpenSignalAppIntent": "Open Signal (Signals)",
       "org.mcorey.HomeFlash.RunSignalAppIntent": "Run Signal (Signals)",
@@ -5104,6 +5170,10 @@
       "com.yoc.Steps.StartWorkoutIntent": "Start Workout (Steps)",
       "com.yoc.Steps.TodaysActivityIntent": "Show today's activity (Steps)"
     },
+    "StepsApp": {
+      "com.gunthermarktl.stepapp.PauseWorkoutIntent": "Pause Workout (StepsApp)",
+      "com.gunthermarktl.stepapp.ResumeWorkoutIntent": "Resume Workout (StepsApp"
+    },
     "StickMe Notes": {
       "com.studiomosaic.stickmenotes.ChecklistToggleIntent": "Mark task as done (StickMe Notes)",
       "com.studiomosaic.stickmenotes.CreateNoteIntent": "Create Note (StickMe Notes)",
@@ -5368,6 +5438,12 @@
       "com.thumbtack.bowtie.FindLandscaperIntent": "Find landscapers (Thumbtack)",
       "com.thumbtack.bowtie.FindMoverIntent": "Find movers (Thumbtack)",
       "com.thumbtack.bowtie.FindPlumberIntent": "Find plumbers (Thumbtack)"
+    },
+    "Tolan": {
+      "ai.portola.portola.StartChatSessionIntent": "Chat with your Tolan (Tolan)",
+      "ai.portola.portola.EndChatSessionIntent": "End chat (Tolan)",
+      "ai.portola.portola.EndServerLiveActivityIntent": "End Live Activity (Tolan)",
+      "ai.portola.portola.ToggleMuteIntent": "Toggle mute (Tolan)"
     },
     "Toyota": {
       "com.toyota.OneApp.RemoteLockCarIntent": "Remote Lock Vehicle (Toyota)",
