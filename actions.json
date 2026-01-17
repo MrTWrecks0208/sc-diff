@@ -6652,7 +6652,7 @@
     },
     "Files": {
       "documentpicker.open": "Get File",
-      "documentpicker.save": "Save File (Filses)",
+      "documentpicker.save": "Save File (Files)",
       "file.append": "Append to File",
       "file.createfolder": "Create Folder",
       "file.delete": "Delete File",
