@@ -6296,6 +6296,9 @@
       "appliedphasor.working-copy.WebDAVIntent": "Toggle WebDAV Server (Working Copy)",
       "appliedphasor.working-copy.WriteFileIntent": "Write Repository File (Working Copy)"
     },
+    "Workouts": {
+      "com.sbs.train.StartTimerIntent": "Start Timer"
+    },
     "Wrike": {
       "Wrike.WrikeApp.WRKOpenBrowseIntent": "Open Browse (Wrike)",
       "Wrike.WrikeApp.WRKOpenDashboardsIntent": "Open Dashboards (Wrike)",
