@@ -309,7 +309,7 @@
         },
         "1Timer": {
             "me.luyx.VoiceTimer.FTStartAdvancedTimerIntent": "Start Advanced Timer (1Timer)",
-            "me.luyx.VoiceTimer.FTStartQuickTimerForDuraionIntent": "Start Quick Timer For Duration (1Timer)",
+            "me.luyx.VoiceTimer.FTStartQuickTimerForDurationIntent": "Start Quick Timer For Duration (1Timer)",
             "me.luyx.VoiceTimer.FTStartQuickTimerWithEndingTimeIntent": "Start Quick Timer With Ending Time (1Timer)",
             "me.luyx.VoiceTimer.FTStartTimerChainIntent": "Start Timer Chain (1Timer)"
         },
