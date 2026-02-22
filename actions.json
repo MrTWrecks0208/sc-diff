@@ -198,7 +198,7 @@
             "is.workflow.actions.getepisodesforpodcast": "Get Episodes of Podcast",
             "is.workflow.actions.getpodcastsfromlibrary": "Get Podcasts from Library",
             "is.workflow.actions.properties.podcastshow": "Get Details of Podcast",
-            "is.workflow.actions.properties.podcast": "Get Details of Podcas"
+            "is.workflow.actions.properties.podcast": "Get Details of Podcast"
         },
         "Sharing": {
             "is.workflow.actions.share": "Share",
