@@ -208,7 +208,7 @@
             "is.workflow.actions.airdropdocument": "AirDrop",
             "is.workflow.actions.setclipboard": "Copy to Clipboard",
             "is.workflow.actions.getclipboard": "Get Clipboard",
-            "com.apple.mobileslideshow.StreamShareService": "Post to Shardd Album",
+            "com.apple.mobileslideshow.StreamShareService": "Post to Shared Album",
             "is.workflow.actions.generatebarcode": "Generate QR Code",
             "is.workflow.actions.scanbarcode": "Scan QR or Barcode"
         },
