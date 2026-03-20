@@ -5,7 +5,7 @@
 
 This repo contains a collection of action identifiers (<code>WFWorkflowActionIdentifier</code>) and their respective actions in Apple Shortcuts.
 
-Actions are listed as key-value pairs where the key is the <code>WFActionIdentifier</code>(found in a shortcut's .plist file) and the value is the action as it is listed in the Shortcuts UI. Apps are grouped into three (3) categories&#8212;"Native Actions", "Third-Party Apps", and "Apple Apps". Shortcut actions are contained inside their respective app. 
+Actions are listed as key-value pairs where the key is the <code>WFWorkflowActionIdentifier</code>(found in a shortcut's .plist file) and the value is the action as it is listed in the Shortcuts UI. Apps are grouped into three (3) categories&#8212;"Native Actions", "Third-Party Apps", and "Apple Apps". Shortcut actions are contained inside their respective app. 
 
 This list is non-exhaustive and is updated periodically. <strong>**It contains only FREE apps. No paid apps are listed.**</strong>
  
